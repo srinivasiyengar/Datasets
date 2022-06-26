@@ -1,0 +1,801 @@
+,CustID,Zip_Code,Gender,Income_(per/month),Education,Age,Profession,Gourment_affinity,Cooking_affinity,Travel_affinity,social_media_affinity,qsr_visits,competitor_visits,food_apps,premium_customer_flag,non_premium_customers,premium_customer_model_probability,non_premium_customer_model_probability,Customer_Classification,Potential_Non_potential_customer_classification
+0,1,400013,Male,129426,Post Doctoral Degree,46,Product_Manager,0,1,1,1,16,20,1,0,1,0.42,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+1,2,400013,Male,161148,Post Doctoral Degree,48,Product_Manager,1,0,1,1,2,10,1,0,1,0.41,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+2,3,400013,Female,74325,Post Doctoral Degree,57,Full_Stack_Software_Developer,1,0,0,1,6,1,1,0,1,0.47,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+3,4,400013,Male,107493,Bachelor's Degree,37,Product_Manager,0,0,0,1,5,11,1,1,0,0.59,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+4,5,400013,Male,114530,Master's Degree,28,Product_Manager,0,0,1,0,15,18,0,0,1,0.59,0.27,Non_Potential_Customer,Prospect_Non_Potential_Customer
+5,6,400013,Female,47092,Master's Degree,28,Data_Scientist,1,1,1,1,8,11,0,0,1,0.49,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+6,7,400013,Male,107677,Master's Degree,37,Investment Banker,1,1,1,0,14,7,1,0,1,0.37,0.75,Non_Premium_Customer,Prospect_Potential_Customer
+7,8,400013,Male,93726,Post Doctoral Degree,52,Machine_Learning_Expert,1,0,0,1,2,26,0,1,0,0.58,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+8,9,400013,Female,180426,Bachelor's Degree,41,Product_Manager,1,1,0,1,26,25,1,0,1,0.3,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+9,10,400013,Female,166894,Bachelor's Degree,51,Full_Stack_Software_Developer,0,0,1,0,2,2,0,1,0,0.71,0.33,Premium_Customer,Prospect_Potential_Customer
+10,11,400052,Female,78515,Master's Degree,59,Corporate_Lawyer,0,1,0,1,19,26,1,1,0,0.36,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+11,12,400052,Male,196473,Bachelor's Degree,52,Machine_Learning_Expert,0,0,1,1,17,10,1,0,1,0.43,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+12,13,400052,Female,120206,Post Doctoral Degree,35,Product_Manager,1,0,0,0,11,15,0,1,0,0.59,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+13,14,400052,Male,117140,Bachelor's Degree,32,Machine_Learning_Expert,0,1,1,1,20,7,0,0,1,0.57,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+14,15,400052,Female,160588,Bachelor's Degree,54,Investment Banker,0,1,1,0,6,6,0,0,1,0.47,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+15,16,400052,Male,109209,Master's Degree,57,Management_Consultant,0,0,0,1,28,21,1,1,0,0.48,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+16,17,400052,Female,54103,Post Doctoral Degree,27,Corporate_Lawyer,1,0,1,0,30,29,1,0,1,0.36,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+17,18,400052,Male,175048,Master's Degree,43,Product_Manager,0,1,1,1,22,30,0,0,1,0.47,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+18,19,400052,Female,179739,Post Doctoral Degree,54,Investment Banker,0,1,1,1,22,9,0,0,1,0.15,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+19,20,400052,Male,145768,Master's Degree,41,Data_Scientist,0,0,1,0,16,17,0,0,1,0.47,0.28,Non_Potential_Customer,Prospect_Non_Potential_Customer
+20,21,400001,Male,73620,Master's Degree,31,Full_Stack_Software_Developer,0,0,1,1,30,15,1,0,1,0.41,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+21,22,400001,Female,48661,Master's Degree,32,Investment Banker,1,1,0,0,19,12,0,1,0,0.59,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+22,23,400001,Female,43704,Post Doctoral Degree,37,Data_Scientist,0,0,0,1,26,20,1,0,1,0.45,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+23,24,400001,Male,81084,Master's Degree,34,Data_Scientist,1,1,0,1,3,20,0,0,1,0.6,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+24,25,400001,Female,70851,Bachelor's Degree,31,Management_Consultant,1,1,0,1,23,28,1,0,1,0.45,0.79,Non_Premium_Customer,Prospect_Potential_Customer
+25,26,400001,Male,194797,Master's Degree,48,Blockchain_Developer,1,0,1,1,24,17,1,0,1,0.18,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+26,27,400001,Female,195506,Bachelor's Degree,28,Blockchain_Developer,1,1,1,1,24,30,0,0,1,0.4,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+27,28,400001,Male,157057,Master's Degree,52,Management_Consultant,0,1,1,0,16,11,0,0,1,0.25,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+28,29,400001,Male,113305,Post Doctoral Degree,44,Management_Consultant,0,1,1,0,5,9,0,1,0,0.61,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+29,30,400001,Female,191134,Master's Degree,49,Management_Consultant,1,1,0,1,7,16,1,0,1,0.42,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+30,31,400008,Female,81110,Post Doctoral Degree,50,Management_Consultant,0,0,0,0,22,23,1,0,1,0.41,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+31,32,400008,Male,41880,Post Doctoral Degree,30,Machine_Learning_Expert,0,0,0,0,1,27,0,0,1,0.67,0.4,Premium_Customer,Prospect_Potential_Customer
+32,33,400008,Female,105085,Post Doctoral Degree,48,Product_Manager,0,0,1,1,25,15,1,0,1,0.27,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+33,34,400008,Male,78179,Post Doctoral Degree,52,Management_Consultant,1,1,1,0,20,25,1,0,1,0.27,0.81,Non_Premium_Customer,Prospect_Potential_Customer
+34,35,400008,Female,68381,Master's Degree,25,Management_Consultant,1,0,0,0,26,12,0,1,0,0.61,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+35,36,400008,Female,147618,Post Doctoral Degree,46,Data_Scientist,0,1,1,1,16,28,0,0,1,0.4,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+36,37,400008,Male,89837,Master's Degree,46,Full_Stack_Software_Developer,1,1,1,1,1,9,1,1,0,0.45,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+37,38,400008,Male,112776,Bachelor's Degree,53,Product_Manager,1,0,0,0,20,6,0,0,1,0.67,0.42,Premium_Customer,Prospect_Potential_Customer
+38,39,400008,Female,49659,Post Doctoral Degree,57,Investment Banker,0,0,1,1,3,17,1,0,1,0.5,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+39,40,400008,Male,78694,Post Doctoral Degree,27,Corporate_Lawyer,0,0,1,0,25,15,0,0,1,0.56,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+40,41,400028,Female,49519,Post Doctoral Degree,30,Investment Banker,1,0,0,0,30,13,1,0,1,0.64,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+41,42,400028,Female,77267,Post Doctoral Degree,36,Product_Manager,0,1,1,0,29,16,0,0,1,0.48,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+42,43,400028,Female,134767,Post Doctoral Degree,53,Product_Manager,1,0,0,0,2,24,0,0,1,0.61,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+43,44,400028,Female,33510,Bachelor's Degree,55,Product_Manager,1,1,0,0,18,30,1,1,0,0.53,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+44,45,400028,Female,125776,Master's Degree,45,Blockchain_Developer,1,1,0,1,1,24,0,0,1,0.49,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+45,46,400028,Male,87474,Bachelor's Degree,57,Product_Manager,1,0,0,1,22,30,0,0,1,0.44,0.75,Non_Premium_Customer,Prospect_Potential_Customer
+46,47,400028,Male,174690,Bachelor's Degree,29,Management_Consultant,1,1,1,1,1,22,1,0,1,0.59,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+47,48,400028,Female,42437,Bachelor's Degree,30,Investment Banker,0,0,1,0,4,23,0,1,0,0.7,0.36,Premium_Customer,Prospect_Potential_Customer
+48,49,400028,Male,167440,Master's Degree,24,Blockchain_Developer,1,0,1,0,14,29,1,1,0,0.41,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+49,50,400028,Male,58244,Post Doctoral Degree,45,Blockchain_Developer,0,0,0,0,19,19,0,0,1,0.5,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+50,51,400034,Male,198768,Bachelor's Degree,60,Investment Banker,0,1,0,0,2,30,0,0,1,0.38,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+51,52,400034,Male,138067,Bachelor's Degree,31,Data_Scientist,1,1,1,0,6,14,1,0,1,0.56,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+52,53,400034,Male,58524,Bachelor's Degree,29,Data_Scientist,1,1,1,1,1,7,1,0,1,0.34,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+53,54,400034,Male,87468,Master's Degree,33,Machine_Learning_Expert,1,1,0,1,3,1,1,1,0,0.66,0.49,Potential_Customer,Prospect_Potential_Customer
+54,55,400034,Female,79811,Bachelor's Degree,57,Investment Banker,1,1,1,1,23,27,0,0,1,0.54,0.79,Non_Premium_Customer,Prospect_Potential_Customer
+55,56,400034,Male,127808,Post Doctoral Degree,44,Full_Stack_Software_Developer,1,0,1,0,10,23,0,0,1,0.62,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+56,57,400034,Female,55976,Bachelor's Degree,33,Blockchain_Developer,1,0,0,0,7,17,1,1,0,0.62,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+57,58,400034,Female,138212,Bachelor's Degree,39,Product_Manager,0,1,0,0,7,8,0,0,1,0.42,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+58,59,400034,Male,182253,Post Doctoral Degree,39,Management_Consultant,1,1,1,1,24,25,0,0,1,0.5,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+59,60,400034,Male,124640,Post Doctoral Degree,38,Blockchain_Developer,0,1,1,1,21,17,0,0,1,0.28,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+60,61,400056,Female,165384,Bachelor's Degree,26,Product_Manager,0,1,1,0,21,19,1,1,0,0.58,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+61,62,400056,Female,173856,Master's Degree,52,Corporate_Lawyer,0,1,1,1,19,21,0,0,1,0.45,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+62,63,400056,Male,98158,Post Doctoral Degree,24,Investment Banker,1,0,0,0,13,8,0,0,1,0.73,0.6,Potential_Customer,Prospect_Potential_Customer
+63,64,400056,Male,149177,Post Doctoral Degree,59,Investment Banker,1,1,1,1,25,4,0,1,0,0.3,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+64,65,400056,Male,85879,Master's Degree,34,Blockchain_Developer,1,1,0,1,29,19,0,0,1,0.49,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+65,66,400056,Female,113031,Post Doctoral Degree,43,Machine_Learning_Expert,0,1,1,0,24,23,1,1,0,0.49,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+66,67,400056,Female,64757,Post Doctoral Degree,29,Corporate_Lawyer,0,1,1,0,3,6,1,0,1,0.76,0.54,Potential_Customer,Prospect_Potential_Customer
+67,68,400056,Male,165054,Post Doctoral Degree,31,Full_Stack_Software_Developer,1,1,0,1,26,10,1,0,1,0.63,0.78,Non_Premium_Customer,Prospect_Potential_Customer
+68,69,400056,Female,172554,Post Doctoral Degree,41,Product_Manager,0,1,1,1,17,14,1,1,0,0.55,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+69,70,400056,Male,99484,Bachelor's Degree,34,Product_Manager,1,1,0,0,20,3,0,0,1,0.52,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+70,71,400063,Male,44971,Master's Degree,59,Data_Scientist,1,0,1,1,18,6,0,0,1,0.25,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+71,72,400063,Male,140090,Master's Degree,24,Full_Stack_Software_Developer,0,1,1,0,8,4,1,1,0,0.58,0.24,Non_Potential_Customer,Prospect_Non_Potential_Customer
+72,73,400063,Male,45812,Post Doctoral Degree,38,Management_Consultant,0,1,0,0,11,27,0,0,1,0.46,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+73,74,400063,Male,187038,Bachelor's Degree,53,Management_Consultant,0,0,0,1,1,10,1,0,1,0.34,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+74,75,400063,Male,99360,Bachelor's Degree,60,Investment Banker,0,1,0,1,4,13,0,0,1,0.47,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+75,76,400063,Male,107702,Bachelor's Degree,60,Full_Stack_Software_Developer,0,1,1,1,19,4,0,0,1,0.49,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+76,77,400063,Male,52350,Post Doctoral Degree,33,Management_Consultant,0,0,0,1,21,25,0,0,1,0.48,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+77,78,400063,Female,61304,Bachelor's Degree,36,Full_Stack_Software_Developer,0,0,0,0,26,5,1,0,1,0.43,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+78,79,400063,Male,113918,Master's Degree,59,Corporate_Lawyer,0,1,1,0,17,23,0,0,1,0.35,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+79,80,400063,Female,186571,Bachelor's Degree,57,Corporate_Lawyer,1,1,0,0,22,24,1,1,0,0.41,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+80,81,400093,Female,131666,Master's Degree,60,Blockchain_Developer,1,1,1,0,27,21,0,1,0,0.46,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+81,82,400093,Female,117928,Master's Degree,35,Data_Scientist,0,0,1,1,16,25,0,0,1,0.4,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+82,83,400093,Male,123148,Bachelor's Degree,24,Full_Stack_Software_Developer,1,1,0,0,4,20,0,1,0,0.73,0.45,Premium_Customer,Prospect_Potential_Customer
+83,84,400093,Male,101734,Post Doctoral Degree,35,Corporate_Lawyer,1,1,0,1,10,8,1,0,1,0.43,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+84,85,400093,Male,35366,Post Doctoral Degree,43,Management_Consultant,0,1,0,0,2,16,1,0,1,0.48,0.27,Non_Potential_Customer,Prospect_Non_Potential_Customer
+85,86,400093,Female,161763,Post Doctoral Degree,34,Data_Scientist,0,0,1,0,25,14,1,1,0,0.68,0.4,Premium_Customer,Prospect_Potential_Customer
+86,87,400093,Male,102006,Post Doctoral Degree,27,Data_Scientist,1,0,1,1,17,3,0,0,1,0.73,0.54,Potential_Customer,Prospect_Potential_Customer
+87,88,400093,Male,166928,Post Doctoral Degree,41,Management_Consultant,1,1,1,1,26,10,1,0,1,0.54,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+88,89,400093,Female,113907,Master's Degree,46,Product_Manager,0,0,0,0,25,19,1,1,0,0.43,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+89,90,400093,Female,52663,Master's Degree,34,Blockchain_Developer,1,0,1,1,11,3,0,0,1,0.6,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+90,91,400069,Female,53436,Post Doctoral Degree,30,Blockchain_Developer,1,1,1,1,22,6,0,0,1,0.45,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+91,92,400069,Female,56281,Master's Degree,60,Full_Stack_Software_Developer,1,1,0,0,30,18,1,1,0,0.67,0.47,Premium_Customer,Prospect_Potential_Customer
+92,93,400069,Male,196880,Master's Degree,33,Blockchain_Developer,0,1,0,1,17,9,0,0,1,0.47,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+93,94,400069,Male,91283,Bachelor's Degree,48,Management_Consultant,1,1,0,0,3,13,0,1,0,0.5,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+94,95,400069,Female,180497,Post Doctoral Degree,24,Blockchain_Developer,1,1,1,1,22,14,1,1,0,0.69,0.61,Potential_Customer,Prospect_Potential_Customer
+95,96,400069,Female,113263,Post Doctoral Degree,54,Management_Consultant,1,0,0,1,2,21,0,1,0,0.49,0.27,Non_Potential_Customer,Prospect_Non_Potential_Customer
+96,97,400069,Female,38459,Post Doctoral Degree,48,Corporate_Lawyer,0,1,1,0,29,16,1,0,1,0.35,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+97,98,400069,Female,82687,Bachelor's Degree,39,Corporate_Lawyer,0,1,1,0,26,18,1,0,1,0.4,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+98,99,400069,Female,133338,Post Doctoral Degree,47,Machine_Learning_Expert,0,0,1,1,12,21,0,1,0,0.73,0.25,Premium_Customer,Prospect_Potential_Customer
+99,100,400069,Male,116167,Bachelor's Degree,44,Corporate_Lawyer,1,1,0,0,11,14,0,1,0,0.58,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+100,101,400020,Male,189217,Master's Degree,35,Blockchain_Developer,1,0,1,1,19,11,1,1,0,0.33,0.74,Non_Premium_Customer,Prospect_Potential_Customer
+101,102,400020,Female,76431,Post Doctoral Degree,51,Data_Scientist,0,1,1,0,28,27,0,0,1,0.33,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+102,103,400020,Female,181681,Master's Degree,54,Product_Manager,0,1,1,0,13,8,1,0,1,0.44,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+103,104,400020,Female,82365,Post Doctoral Degree,55,Investment Banker,0,0,0,1,6,23,0,0,1,0.46,0.28,Non_Potential_Customer,Prospect_Non_Potential_Customer
+104,105,400020,Female,79132,Post Doctoral Degree,54,Machine_Learning_Expert,1,0,1,1,30,4,1,0,1,0.32,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+105,106,400020,Female,179293,Post Doctoral Degree,32,Full_Stack_Software_Developer,0,1,1,1,3,16,0,1,0,0.73,0.44,Premium_Customer,Prospect_Potential_Customer
+106,107,400020,Female,42849,Bachelor's Degree,38,Data_Scientist,0,1,1,1,14,13,1,0,1,0.26,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+107,108,400020,Female,128039,Bachelor's Degree,34,Management_Consultant,1,1,0,0,10,13,0,0,1,0.53,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+108,109,400020,Male,74369,Post Doctoral Degree,51,Machine_Learning_Expert,1,1,0,0,3,16,0,0,1,0.36,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+109,110,400020,Female,100814,Post Doctoral Degree,30,Machine_Learning_Expert,1,0,0,0,24,5,1,0,1,0.73,0.56,Potential_Customer,Prospect_Potential_Customer
+110,111,400089,Female,193918,Bachelor's Degree,59,Full_Stack_Software_Developer,1,0,0,0,11,14,1,0,1,0.7,0.24,Premium_Customer,Prospect_Potential_Customer
+111,112,400089,Male,166198,Bachelor's Degree,55,Management_Consultant,0,1,0,1,15,9,1,0,1,0.28,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+112,113,400089,Male,92109,Post Doctoral Degree,36,Management_Consultant,1,0,1,0,15,26,1,1,0,0.58,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+113,114,400089,Female,172457,Master's Degree,51,Machine_Learning_Expert,0,1,0,1,24,11,0,0,1,0.49,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+114,115,400089,Male,114058,Bachelor's Degree,52,Corporate_Lawyer,0,0,1,1,15,19,0,0,1,0.32,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+115,116,400089,Female,193382,Master's Degree,56,Investment Banker,1,1,1,1,6,5,0,0,1,0.58,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+116,117,400089,Male,193605,Bachelor's Degree,28,Management_Consultant,0,0,0,0,30,20,0,1,0,0.61,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+117,118,400089,Female,58298,Post Doctoral Degree,45,Full_Stack_Software_Developer,0,0,0,1,26,25,1,0,1,0.32,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+118,119,400089,Male,199808,Master's Degree,41,Data_Scientist,1,0,0,0,8,18,1,0,1,0.56,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+119,120,400089,Male,124669,Master's Degree,33,Full_Stack_Software_Developer,0,1,1,1,24,26,1,0,1,0.3,0.84,Non_Premium_Customer,Prospect_Potential_Customer
+120,121,400021,Male,145488,Bachelor's Degree,53,Full_Stack_Software_Developer,0,1,1,1,19,16,0,0,1,0.47,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+121,122,400021,Female,158949,Bachelor's Degree,39,Machine_Learning_Expert,0,1,0,0,24,26,1,0,1,0.42,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+122,123,400021,Female,111628,Bachelor's Degree,38,Data_Scientist,0,1,1,0,18,1,0,0,1,0.52,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+123,124,400021,Male,197342,Bachelor's Degree,48,Investment Banker,1,0,0,0,3,19,1,0,1,0.59,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+124,125,400021,Female,93319,Post Doctoral Degree,49,Blockchain_Developer,0,0,0,0,1,19,0,1,0,0.76,0.29,Premium_Customer,Prospect_Potential_Customer
+125,126,400021,Male,140605,Master's Degree,55,Management_Consultant,0,1,0,0,23,3,0,1,0,0.33,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+126,127,400021,Female,104888,Bachelor's Degree,59,Full_Stack_Software_Developer,1,0,0,0,14,11,1,0,1,0.68,0.34,Premium_Customer,Prospect_Potential_Customer
+127,128,400021,Female,35877,Bachelor's Degree,54,Management_Consultant,0,0,0,0,30,26,0,1,0,0.58,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+128,129,400021,Male,109398,Master's Degree,54,Full_Stack_Software_Developer,1,0,1,1,26,18,1,1,0,0.22,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+129,130,400021,Male,68061,Post Doctoral Degree,29,Blockchain_Developer,0,1,1,1,25,16,0,0,1,0.6,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+130,131,400072,Female,92175,Bachelor's Degree,55,Product_Manager,0,1,1,1,16,7,0,1,0,0.64,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+131,132,400072,Female,154823,Bachelor's Degree,58,Product_Manager,1,1,1,0,7,2,0,0,1,0.56,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+132,133,400072,Female,138915,Master's Degree,36,Corporate_Lawyer,0,1,0,1,4,18,0,0,1,0.59,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+133,134,400072,Male,123861,Master's Degree,43,Corporate_Lawyer,1,0,1,1,10,28,1,0,1,0.54,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+134,135,400072,Female,186728,Bachelor's Degree,55,Full_Stack_Software_Developer,0,0,1,1,19,20,0,1,0,0.42,0.26,Non_Potential_Customer,Prospect_Non_Potential_Customer
+135,136,400072,Male,171535,Master's Degree,49,Product_Manager,1,0,1,0,16,6,0,0,1,0.32,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+136,137,400072,Female,174692,Post Doctoral Degree,31,Management_Consultant,1,1,1,0,11,7,1,0,1,0.7,0.47,Premium_Customer,Prospect_Potential_Customer
+137,138,400072,Female,45754,Post Doctoral Degree,59,Blockchain_Developer,1,1,1,0,6,20,1,0,1,0.57,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+138,139,400072,Female,78679,Bachelor's Degree,33,Machine_Learning_Expert,0,1,1,1,15,27,1,0,1,0.43,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+139,140,400072,Female,197782,Post Doctoral Degree,42,Management_Consultant,0,1,1,0,18,4,1,0,1,0.61,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+140,141,400078,Male,140936,Bachelor's Degree,39,Product_Manager,1,1,0,1,22,10,0,1,0,0.46,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+141,142,400078,Female,171179,Master's Degree,32,Management_Consultant,0,1,0,0,30,22,1,0,1,0.57,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+142,143,400078,Female,166814,Master's Degree,60,Corporate_Lawyer,0,0,1,0,24,17,0,0,1,0.3,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+143,144,400078,Male,47757,Master's Degree,25,Management_Consultant,0,1,1,0,13,26,1,0,1,0.5,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+144,145,400078,Female,130722,Master's Degree,24,Product_Manager,1,0,0,0,16,23,1,0,1,0.66,0.29,Premium_Customer,Prospect_Potential_Customer
+145,146,400078,Male,130549,Bachelor's Degree,41,Data_Scientist,0,1,0,1,21,22,1,0,1,0.26,0.82,Non_Premium_Customer,Prospect_Potential_Customer
+146,147,400078,Female,88563,Post Doctoral Degree,36,Blockchain_Developer,0,1,1,1,16,13,0,0,1,0.39,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+147,148,400078,Female,90188,Master's Degree,28,Management_Consultant,1,1,0,0,7,6,1,0,1,0.72,0.37,Premium_Customer,Prospect_Potential_Customer
+148,149,400078,Male,70237,Post Doctoral Degree,47,Machine_Learning_Expert,1,0,1,1,24,10,1,0,1,0.58,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+149,150,400078,Female,30818,Master's Degree,42,Management_Consultant,1,0,1,1,14,10,0,0,1,0.6,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+150,151,400050,Male,80103,Master's Degree,57,Full_Stack_Software_Developer,1,1,1,1,18,12,0,0,1,0.5,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+151,152,400050,Female,43919,Post Doctoral Degree,27,Data_Scientist,1,0,0,0,22,15,1,0,1,0.63,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+152,153,400050,Male,35212,Post Doctoral Degree,55,Product_Manager,0,0,1,1,18,28,1,1,0,0.39,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+153,154,400050,Male,116989,Bachelor's Degree,35,Full_Stack_Software_Developer,0,0,1,1,14,21,0,1,0,0.51,0.32,Non_Potential_Customer,Prospect_Non_Potential_Customer
+154,155,400050,Female,56566,Master's Degree,53,Machine_Learning_Expert,0,1,1,1,20,23,1,1,0,0.53,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+155,156,400050,Female,69576,Master's Degree,56,Machine_Learning_Expert,1,0,0,1,24,24,1,1,0,0.53,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+156,157,400050,Male,161434,Bachelor's Degree,54,Corporate_Lawyer,0,0,1,1,7,9,1,1,0,0.64,0.32,Non_Potential_Customer,Prospect_Non_Potential_Customer
+157,158,400050,Female,182025,Post Doctoral Degree,56,Product_Manager,1,0,1,1,15,3,1,0,1,0.35,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+158,159,400050,Female,39630,Master's Degree,43,Blockchain_Developer,0,1,1,1,17,22,1,0,1,0.3,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+159,160,400050,Male,184771,Bachelor's Degree,57,Investment Banker,1,0,1,1,24,14,1,0,1,0.38,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+160,161,400092,Male,191726,Post Doctoral Degree,46,Corporate_Lawyer,0,0,0,1,2,25,1,0,1,0.47,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+161,162,400092,Male,34987,Master's Degree,26,Corporate_Lawyer,1,0,1,1,25,6,0,0,1,0.47,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+162,163,400092,Male,86050,Post Doctoral Degree,60,Corporate_Lawyer,0,0,0,0,27,25,0,0,1,0.26,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+163,164,400092,Female,96644,Post Doctoral Degree,51,Blockchain_Developer,0,1,0,1,4,20,1,1,0,0.53,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+164,165,400092,Female,126393,Master's Degree,41,Blockchain_Developer,0,1,1,1,19,18,0,0,1,0.28,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+165,166,400092,Male,193093,Master's Degree,53,Full_Stack_Software_Developer,0,0,1,0,29,2,1,0,1,0.38,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+166,167,400092,Female,116042,Bachelor's Degree,26,Management_Consultant,1,1,0,1,16,3,0,0,1,0.51,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+167,168,400092,Male,73507,Master's Degree,43,Product_Manager,1,0,0,0,23,16,1,0,1,0.53,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+168,169,400092,Female,92744,Master's Degree,49,Data_Scientist,1,1,1,0,25,6,0,1,0,0.41,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+169,170,400092,Female,185885,Bachelor's Degree,45,Machine_Learning_Expert,1,0,0,1,22,7,1,0,1,0.32,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+170,171,400603,Male,144868,Master's Degree,33,Blockchain_Developer,0,0,0,1,29,4,1,0,1,0.36,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+171,172,400603,Female,76846,Bachelor's Degree,31,Corporate_Lawyer,1,0,0,1,2,19,0,1,0,0.7,0.28,Premium_Customer,Prospect_Potential_Customer
+172,173,400603,Female,132028,Post Doctoral Degree,56,Investment Banker,0,1,1,1,14,28,1,0,1,0.29,0.75,Non_Premium_Customer,Prospect_Potential_Customer
+173,174,400603,Female,138740,Bachelor's Degree,60,Investment Banker,0,0,1,0,17,28,0,0,1,0.5,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+174,175,400603,Female,64457,Bachelor's Degree,58,Blockchain_Developer,0,0,0,1,24,2,1,1,0,0.4,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+175,176,400603,Female,95990,Master's Degree,52,Investment Banker,0,1,1,1,26,24,0,1,0,0.59,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+176,177,400603,Male,108869,Post Doctoral Degree,30,Product_Manager,0,1,0,1,2,15,1,0,1,0.71,0.61,Potential_Customer,Prospect_Potential_Customer
+177,178,400603,Male,58524,Master's Degree,42,Machine_Learning_Expert,0,0,1,0,21,14,0,1,0,0.56,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+178,179,400603,Male,64430,Post Doctoral Degree,42,Data_Scientist,1,1,1,1,4,27,0,0,1,0.41,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+179,180,400603,Male,90418,Bachelor's Degree,37,Machine_Learning_Expert,1,1,0,0,16,25,1,0,1,0.61,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+180,181,400086,Male,119150,Bachelor's Degree,41,Product_Manager,1,0,0,1,7,29,1,1,0,0.62,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+181,182,400086,Female,86356,Bachelor's Degree,50,Full_Stack_Software_Developer,0,1,0,1,23,4,0,0,1,0.7,0.49,Potential_Customer,Prospect_Potential_Customer
+182,183,400086,Female,33526,Master's Degree,45,Product_Manager,0,0,0,0,18,23,0,0,1,0.57,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+183,184,400086,Male,148814,Post Doctoral Degree,58,Machine_Learning_Expert,0,1,0,0,22,14,0,0,1,0.39,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+184,185,400086,Male,57134,Post Doctoral Degree,34,Investment Banker,0,1,1,1,26,15,0,0,1,0.52,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+185,186,400086,Male,81191,Bachelor's Degree,44,Blockchain_Developer,0,1,1,1,19,6,1,0,1,0.36,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+186,187,400086,Female,63099,Bachelor's Degree,48,Product_Manager,1,1,0,0,21,28,1,0,1,0.5,0.75,Non_Premium_Customer,Prospect_Potential_Customer
+187,188,400086,Male,49783,Post Doctoral Degree,29,Full_Stack_Software_Developer,0,0,0,0,27,17,1,0,1,0.56,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+188,189,400086,Female,31629,Master's Degree,28,Investment Banker,1,1,1,1,17,23,1,0,1,0.41,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+189,190,400086,Female,183192,Post Doctoral Degree,35,Management_Consultant,0,1,0,0,7,4,0,0,1,0.54,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+190,191,400053,Male,34068,Master's Degree,34,Management_Consultant,0,0,0,1,24,30,0,0,1,0.41,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+191,192,400053,Male,176415,Post Doctoral Degree,45,Corporate_Lawyer,0,0,0,0,14,26,0,0,1,0.43,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+192,193,400053,Male,43959,Bachelor's Degree,50,Full_Stack_Software_Developer,1,1,0,1,20,17,1,0,1,0.47,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+193,194,400053,Female,177703,Post Doctoral Degree,48,Management_Consultant,1,0,1,0,29,19,1,0,1,0.22,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+194,195,400053,Female,187546,Post Doctoral Degree,30,Product_Manager,1,1,0,0,20,21,0,0,1,0.58,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+195,196,400053,Female,115786,Bachelor's Degree,33,Management_Consultant,1,1,0,1,2,18,0,0,1,0.67,0.42,Premium_Customer,Prospect_Potential_Customer
+196,197,400053,Male,167639,Post Doctoral Degree,49,Product_Manager,0,1,1,0,5,17,1,0,1,0.3,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+197,198,400053,Male,179071,Post Doctoral Degree,41,Machine_Learning_Expert,1,0,0,0,7,4,1,1,0,0.64,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+198,199,400053,Female,67178,Bachelor's Degree,26,Machine_Learning_Expert,0,0,1,1,30,16,1,1,0,0.45,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+199,200,400053,Male,44914,Bachelor's Degree,55,Data_Scientist,1,0,1,0,20,13,0,0,1,0.6,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+200,201,400057,Male,180745,Bachelor's Degree,29,Management_Consultant,0,1,0,1,11,3,1,1,0,0.57,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+201,202,400057,Female,188499,Post Doctoral Degree,35,Investment Banker,1,1,0,0,3,18,1,0,1,0.56,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+202,203,400057,Female,168204,Post Doctoral Degree,28,Full_Stack_Software_Developer,0,0,1,0,15,13,1,1,0,0.71,0.39,Premium_Customer,Prospect_Potential_Customer
+203,204,400057,Male,186697,Bachelor's Degree,28,Corporate_Lawyer,0,0,1,1,18,15,1,0,1,0.37,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+204,205,400057,Male,57224,Master's Degree,50,Full_Stack_Software_Developer,0,1,1,1,17,21,0,0,1,0.49,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+205,206,400057,Male,151682,Post Doctoral Degree,33,Product_Manager,1,0,0,0,30,8,0,1,0,0.72,0.52,Potential_Customer,Prospect_Potential_Customer
+206,207,400057,Male,134184,Master's Degree,51,Blockchain_Developer,0,0,1,1,17,14,0,0,1,0.42,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+207,208,400057,Female,62898,Post Doctoral Degree,58,Management_Consultant,1,1,1,0,7,24,0,0,1,0.37,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+208,209,400057,Male,62607,Master's Degree,27,Machine_Learning_Expert,1,1,0,0,6,8,0,0,1,0.63,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+209,210,400057,Female,120036,Master's Degree,39,Machine_Learning_Expert,1,0,0,0,23,22,0,0,1,0.58,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+210,211,400098,Female,37444,Bachelor's Degree,49,Corporate_Lawyer,0,1,0,1,23,11,0,0,1,0.53,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+211,212,400098,Female,46432,Post Doctoral Degree,31,Product_Manager,0,1,1,0,4,20,1,0,1,0.58,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+212,213,400098,Male,92960,Post Doctoral Degree,54,Investment Banker,1,1,0,1,5,4,0,0,1,0.21,0.79,Non_Premium_Customer,Prospect_Potential_Customer
+213,214,400098,Female,164031,Bachelor's Degree,57,Management_Consultant,1,0,1,1,18,8,1,0,1,0.44,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+214,215,400098,Female,73332,Master's Degree,45,Full_Stack_Software_Developer,0,0,0,1,5,12,0,0,1,0.7,0.25,Premium_Customer,Prospect_Potential_Customer
+215,216,400098,Male,101814,Bachelor's Degree,49,Blockchain_Developer,1,1,0,1,24,18,0,0,1,0.45,0.72,Non_Premium_Customer,Prospect_Potential_Customer
+216,217,400098,Female,133274,Post Doctoral Degree,31,Machine_Learning_Expert,0,0,1,0,3,8,0,0,1,0.64,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+217,218,400098,Male,98311,Post Doctoral Degree,48,Machine_Learning_Expert,0,1,1,0,2,28,0,0,1,0.56,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+218,219,400098,Female,31622,Post Doctoral Degree,24,Machine_Learning_Expert,0,0,0,0,6,16,0,0,1,0.69,0.4,Premium_Customer,Prospect_Potential_Customer
+219,220,400098,Male,100943,Post Doctoral Degree,27,Full_Stack_Software_Developer,0,0,1,1,21,3,1,0,1,0.63,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+220,221,400091,Male,152961,Bachelor's Degree,33,Investment Banker,1,1,0,0,4,2,1,0,1,0.65,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+221,222,400091,Male,196118,Master's Degree,31,Data_Scientist,1,1,0,0,22,12,1,0,1,0.82,0.46,Premium_Customer,Prospect_Potential_Customer
+222,223,400091,Male,60589,Master's Degree,40,Investment Banker,0,0,0,0,18,18,1,0,1,0.44,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+223,224,400091,Male,71203,Master's Degree,52,Product_Manager,1,1,1,1,1,19,0,0,1,0.52,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+224,225,400091,Male,131642,Bachelor's Degree,37,Product_Manager,0,1,0,0,8,5,0,0,1,0.56,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+225,226,400091,Female,114836,Post Doctoral Degree,35,Data_Scientist,1,0,0,0,9,19,0,0,1,0.59,0.29,Non_Potential_Customer,Prospect_Non_Potential_Customer
+226,227,400091,Male,40602,Master's Degree,25,Data_Scientist,0,0,0,0,19,6,1,0,1,0.48,0.4,Non_Potential_Customer,Prospect_Non_Potential_Customer
+227,228,400091,Male,124200,Bachelor's Degree,35,Blockchain_Developer,1,0,1,0,18,12,1,0,1,0.35,0.77,Non_Premium_Customer,Prospect_Potential_Customer
+228,229,400091,Female,37986,Master's Degree,45,Investment Banker,0,1,1,0,27,19,0,0,1,0.53,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+229,230,400091,Male,35414,Bachelor's Degree,38,Machine_Learning_Expert,1,1,1,1,10,23,0,0,1,0.6,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+230,231,400080,Female,104438,Post Doctoral Degree,54,Investment Banker,0,1,1,0,15,15,0,0,1,0.25,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+231,232,400080,Female,126441,Post Doctoral Degree,36,Investment Banker,0,0,1,1,11,6,0,0,1,0.73,0.42,Premium_Customer,Prospect_Potential_Customer
+232,233,400080,Male,58007,Master's Degree,31,Product_Manager,1,0,0,1,21,7,0,0,1,0.56,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+233,234,400080,Male,35881,Bachelor's Degree,48,Machine_Learning_Expert,1,1,1,1,16,28,0,0,1,0.41,0.76,Non_Premium_Customer,Prospect_Potential_Customer
+234,235,400080,Female,100925,Post Doctoral Degree,30,Full_Stack_Software_Developer,1,1,1,1,19,14,1,0,1,0.73,0.59,Potential_Customer,Prospect_Potential_Customer
+235,236,400080,Male,107741,Master's Degree,56,Management_Consultant,0,1,1,0,13,17,0,0,1,0.39,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+236,237,400080,Female,126922,Post Doctoral Degree,36,Full_Stack_Software_Developer,0,0,0,1,22,28,1,0,1,0.44,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+237,238,400080,Male,43200,Post Doctoral Degree,30,Full_Stack_Software_Developer,1,0,0,1,22,8,1,0,1,0.51,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+238,239,400080,Male,137060,Master's Degree,57,Blockchain_Developer,0,0,0,0,1,29,1,0,1,0.6,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+239,240,400080,Male,49194,Bachelor's Degree,45,Investment Banker,1,0,1,1,24,2,0,0,1,0.43,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+240,241,400099,Male,130469,Master's Degree,25,Product_Manager,0,0,0,1,6,25,0,0,1,0.69,0.52,Potential_Customer,Prospect_Potential_Customer
+241,242,400099,Female,48307,Master's Degree,55,Full_Stack_Software_Developer,1,0,0,1,1,9,0,0,1,0.37,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+242,243,400099,Male,71221,Post Doctoral Degree,53,Blockchain_Developer,1,0,0,1,23,9,0,0,1,0.24,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+243,244,400099,Male,40214,Post Doctoral Degree,26,Management_Consultant,1,0,1,1,26,10,0,0,1,0.64,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+244,245,400099,Female,187365,Post Doctoral Degree,50,Corporate_Lawyer,0,0,0,1,4,10,1,0,1,0.51,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+245,246,400099,Male,186347,Bachelor's Degree,41,Machine_Learning_Expert,1,1,1,1,14,2,1,0,1,0.56,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+246,247,400099,Female,136775,Post Doctoral Degree,42,Machine_Learning_Expert,1,1,1,0,3,9,1,0,1,0.57,0.26,Non_Potential_Customer,Prospect_Non_Potential_Customer
+247,248,400099,Female,173285,Bachelor's Degree,48,Blockchain_Developer,0,1,0,0,15,9,1,0,1,0.62,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+248,249,400099,Male,154527,Master's Degree,44,Blockchain_Developer,0,0,1,0,4,19,0,0,1,0.62,0.22,Non_Potential_Customer,Prospect_Non_Potential_Customer
+249,250,400099,Female,57810,Post Doctoral Degree,40,Corporate_Lawyer,1,0,0,0,15,5,1,0,1,0.43,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+250,251,400024,Female,71019,Post Doctoral Degree,54,Blockchain_Developer,0,1,0,1,3,29,0,0,1,0.55,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+251,252,400024,Male,75863,Master's Degree,53,Full_Stack_Software_Developer,0,1,1,1,9,6,0,0,1,0.39,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+252,253,400024,Male,100600,Master's Degree,51,Product_Manager,1,1,1,1,19,26,1,0,1,0.33,0.81,Non_Premium_Customer,Prospect_Potential_Customer
+253,254,400024,Male,36604,Post Doctoral Degree,48,Data_Scientist,0,1,1,1,9,15,1,1,0,0.34,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+254,255,400024,Female,99126,Post Doctoral Degree,56,Machine_Learning_Expert,1,0,0,1,16,11,1,0,1,0.41,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+255,256,400024,Male,151159,Bachelor's Degree,28,Blockchain_Developer,1,0,0,0,30,1,1,0,1,0.57,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+256,257,400024,Female,131369,Post Doctoral Degree,56,Management_Consultant,0,0,1,0,24,16,0,0,1,0.3,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+257,258,400024,Male,167892,Bachelor's Degree,31,Machine_Learning_Expert,1,1,0,1,1,7,1,1,0,0.61,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+258,259,400024,Male,76588,Master's Degree,30,Machine_Learning_Expert,1,1,0,0,3,30,0,1,0,0.67,0.48,Premium_Customer,Prospect_Potential_Customer
+259,260,400024,Male,43401,Master's Degree,43,Investment Banker,1,0,0,0,30,11,0,1,0,0.77,0.45,Premium_Customer,Prospect_Potential_Customer
+260,261,400064,Female,182708,Master's Degree,33,Data_Scientist,0,1,0,0,12,4,1,0,1,0.72,0.23,Premium_Customer,Prospect_Potential_Customer
+261,262,400064,Female,101965,Bachelor's Degree,53,Corporate_Lawyer,1,1,0,1,27,5,0,0,1,0.34,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+262,263,400064,Female,56497,Post Doctoral Degree,33,Blockchain_Developer,0,1,1,1,27,7,1,1,0,0.57,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+263,264,400064,Male,58654,Master's Degree,57,Machine_Learning_Expert,0,1,1,1,19,12,0,1,0,0.56,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+264,265,400064,Male,62860,Bachelor's Degree,58,Blockchain_Developer,0,1,0,1,16,20,1,0,1,0.41,0.74,Non_Premium_Customer,Prospect_Potential_Customer
+265,266,400064,Female,160391,Bachelor's Degree,27,Product_Manager,1,1,1,1,7,25,0,1,0,0.66,0.44,Premium_Customer,Prospect_Potential_Customer
+266,267,400064,Male,169921,Master's Degree,42,Investment Banker,0,1,1,0,2,20,1,0,1,0.49,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+267,268,400064,Male,179221,Post Doctoral Degree,55,Management_Consultant,1,1,0,1,5,9,1,1,0,0.26,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+268,269,400064,Male,186061,Post Doctoral Degree,35,Full_Stack_Software_Developer,0,1,1,0,17,18,0,0,1,0.52,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+269,270,400064,Male,137182,Bachelor's Degree,45,Product_Manager,1,1,1,1,8,6,0,1,0,0.52,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+270,271,400071,Female,48637,Post Doctoral Degree,59,Investment Banker,0,1,0,1,20,9,1,0,1,0.2,0.72,Non_Premium_Customer,Prospect_Potential_Customer
+271,272,400071,Female,48263,Master's Degree,53,Product_Manager,0,1,1,1,22,21,1,1,0,0.46,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+272,273,400071,Female,183747,Bachelor's Degree,54,Product_Manager,0,1,1,1,8,15,0,0,1,0.61,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+273,274,400071,Male,190873,Bachelor's Degree,26,Investment Banker,0,0,0,1,24,18,1,1,0,0.56,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+274,275,400071,Female,89520,Bachelor's Degree,46,Blockchain_Developer,1,1,0,1,25,26,1,0,1,0.2,0.87,Non_Premium_Customer,Prospect_Potential_Customer
+275,276,400071,Female,81380,Master's Degree,55,Data_Scientist,0,1,0,0,6,22,0,1,0,0.49,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+276,277,400071,Male,187984,Post Doctoral Degree,46,Corporate_Lawyer,1,1,0,0,1,26,0,1,0,0.68,0.38,Premium_Customer,Prospect_Potential_Customer
+277,278,400071,Male,152996,Post Doctoral Degree,46,Blockchain_Developer,0,0,1,0,26,21,1,0,1,0.52,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+278,279,400071,Female,158986,Bachelor's Degree,40,Corporate_Lawyer,0,1,1,0,6,16,1,0,1,0.59,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+279,280,400071,Female,73579,Post Doctoral Degree,59,Machine_Learning_Expert,0,0,1,1,26,22,0,0,1,0.47,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+280,281,400101,Female,174073,Post Doctoral Degree,24,Machine_Learning_Expert,0,1,1,1,25,17,1,0,1,0.74,0.49,Potential_Customer,Prospect_Potential_Customer
+281,282,400101,Male,194722,Master's Degree,39,Data_Scientist,0,0,0,0,13,23,0,0,1,0.56,0.24,Non_Potential_Customer,Prospect_Non_Potential_Customer
+282,283,400101,Male,174103,Bachelor's Degree,51,Full_Stack_Software_Developer,1,0,1,1,14,3,1,1,0,0.45,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+283,284,400101,Male,63319,Bachelor's Degree,32,Machine_Learning_Expert,0,0,0,1,18,9,0,0,1,0.59,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+284,285,400101,Female,155808,Master's Degree,49,Machine_Learning_Expert,1,0,1,0,9,27,1,1,0,0.61,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+285,286,400101,Male,196165,Bachelor's Degree,52,Product_Manager,1,1,0,0,29,25,1,0,1,0.47,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+286,287,400101,Male,94164,Post Doctoral Degree,37,Corporate_Lawyer,0,0,0,0,20,13,0,1,0,0.51,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+287,288,400101,Male,60139,Post Doctoral Degree,38,Full_Stack_Software_Developer,0,1,1,0,1,3,1,0,1,0.51,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+288,289,400101,Female,197325,Master's Degree,46,Corporate_Lawyer,0,1,1,0,25,11,1,0,1,0.28,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+289,290,400101,Male,132239,Post Doctoral Degree,56,Product_Manager,1,0,1,1,7,13,0,0,1,0.34,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+290,291,400067,Male,52861,Post Doctoral Degree,29,Investment Banker,1,0,0,1,27,13,1,1,0,0.59,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+291,292,400067,Male,118740,Bachelor's Degree,46,Product_Manager,0,0,1,0,3,13,0,0,1,0.48,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+292,293,400067,Female,120106,Post Doctoral Degree,43,Corporate_Lawyer,1,1,0,0,25,8,0,0,1,0.36,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+293,294,400067,Female,114838,Master's Degree,56,Blockchain_Developer,1,1,0,1,30,11,0,0,1,0.43,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+294,295,400067,Female,36535,Bachelor's Degree,48,Blockchain_Developer,1,1,1,1,4,13,0,0,1,0.58,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+295,296,400067,Male,90337,Post Doctoral Degree,24,Machine_Learning_Expert,0,1,1,0,7,15,0,0,1,0.65,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+296,297,400067,Male,192311,Post Doctoral Degree,38,Management_Consultant,1,1,1,0,28,30,1,0,1,0.4,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+297,298,400067,Female,183574,Master's Degree,33,Blockchain_Developer,1,0,0,0,20,17,1,0,1,0.71,0.32,Premium_Customer,Prospect_Potential_Customer
+298,299,400067,Male,148411,Post Doctoral Degree,59,Full_Stack_Software_Developer,1,0,0,1,3,28,0,0,1,0.6,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+299,300,400067,Male,81606,Post Doctoral Degree,35,Blockchain_Developer,0,0,0,1,5,17,0,1,0,0.7,0.43,Premium_Customer,Prospect_Potential_Customer
+300,301,400104,Female,40340,Bachelor's Degree,45,Corporate_Lawyer,0,1,0,0,11,4,0,1,0,0.5,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+301,302,400104,Female,56375,Bachelor's Degree,35,Data_Scientist,1,1,0,1,8,3,1,1,0,0.44,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+302,303,400104,Male,122206,Bachelor's Degree,43,Corporate_Lawyer,1,0,1,0,24,11,1,0,1,0.36,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+303,304,400104,Male,42611,Post Doctoral Degree,49,Corporate_Lawyer,0,1,1,0,12,6,0,0,1,0.29,0.81,Non_Premium_Customer,Prospect_Potential_Customer
+304,305,400104,Male,179278,Bachelor's Degree,32,Machine_Learning_Expert,0,0,1,0,6,2,0,0,1,0.61,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+305,306,400104,Male,46807,Bachelor's Degree,52,Full_Stack_Software_Developer,1,1,1,0,14,8,1,0,1,0.69,0.5,Potential_Customer,Prospect_Potential_Customer
+306,307,400104,Female,51063,Post Doctoral Degree,34,Management_Consultant,0,1,1,0,27,8,1,0,1,0.67,0.38,Premium_Customer,Prospect_Potential_Customer
+307,308,400104,Male,187703,Bachelor's Degree,57,Product_Manager,1,1,1,0,19,19,0,0,1,0.53,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+308,309,400104,Female,189707,Bachelor's Degree,28,Data_Scientist,1,1,0,1,30,6,0,0,1,0.48,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+309,310,400104,Male,107153,Bachelor's Degree,45,Product_Manager,1,0,0,0,27,27,1,0,1,0.55,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+310,311,400010,Female,189349,Bachelor's Degree,27,Machine_Learning_Expert,1,0,0,0,22,18,0,1,0,0.73,0.31,Premium_Customer,Prospect_Potential_Customer
+311,312,400010,Male,37615,Master's Degree,47,Blockchain_Developer,1,0,1,0,14,29,1,0,1,0.28,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+312,313,400010,Male,133283,Master's Degree,46,Full_Stack_Software_Developer,0,1,0,1,8,23,1,0,1,0.42,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+313,314,400010,Male,105011,Post Doctoral Degree,39,Blockchain_Developer,1,1,0,0,26,15,0,0,1,0.38,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+314,315,400010,Female,105549,Bachelor's Degree,53,Machine_Learning_Expert,1,1,0,0,22,21,0,0,1,0.55,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+315,316,400010,Female,96698,Post Doctoral Degree,28,Management_Consultant,0,0,0,1,7,19,0,1,0,0.83,0.24,Premium_Customer,Prospect_Potential_Customer
+316,317,400010,Female,38404,Bachelor's Degree,56,Blockchain_Developer,0,0,0,0,9,7,1,0,1,0.52,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+317,318,400010,Male,76449,Master's Degree,46,Data_Scientist,1,0,0,0,28,9,0,1,0,0.72,0.44,Premium_Customer,Prospect_Potential_Customer
+318,319,400010,Male,124234,Post Doctoral Degree,24,Investment Banker,0,1,1,1,10,2,1,0,1,0.69,0.72,Potential_Customer,Prospect_Potential_Customer
+319,320,400010,Male,196542,Post Doctoral Degree,29,Machine_Learning_Expert,0,1,0,1,28,22,1,1,0,0.67,0.63,Potential_Customer,Prospect_Potential_Customer
+320,321,400102,Female,60317,Master's Degree,31,Investment Banker,1,0,1,0,28,27,1,0,1,0.44,0.79,Non_Premium_Customer,Prospect_Potential_Customer
+321,322,400102,Female,130597,Master's Degree,39,Management_Consultant,0,1,1,1,12,7,0,0,1,0.5,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+322,323,400102,Male,183833,Post Doctoral Degree,47,Corporate_Lawyer,1,0,0,1,28,7,1,0,1,0.26,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+323,324,400102,Female,86164,Bachelor's Degree,58,Blockchain_Developer,0,0,1,1,25,10,1,0,1,0.57,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+324,325,400102,Female,117117,Bachelor's Degree,25,Corporate_Lawyer,1,1,0,0,20,24,1,1,0,0.59,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+325,326,400102,Female,128967,Bachelor's Degree,56,Investment Banker,1,1,0,0,6,17,0,0,1,0.39,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+326,327,400102,Female,154860,Master's Degree,44,Full_Stack_Software_Developer,0,0,0,0,7,22,0,0,1,0.66,0.24,Premium_Customer,Prospect_Potential_Customer
+327,328,400102,Female,129312,Post Doctoral Degree,25,Investment Banker,1,0,0,1,26,1,1,1,0,0.61,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+328,329,400102,Female,104196,Master's Degree,24,Data_Scientist,0,1,1,1,8,11,1,0,1,0.37,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+329,330,400102,Female,77777,Bachelor's Degree,32,Investment Banker,0,0,1,0,1,4,0,1,0,0.61,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+330,331,400068,Female,30138,Post Doctoral Degree,54,Product_Manager,1,1,1,1,9,22,1,0,1,0.44,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+331,332,400068,Male,181487,Bachelor's Degree,59,Blockchain_Developer,1,1,0,1,11,16,1,0,1,0.38,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+332,333,400068,Male,164943,Post Doctoral Degree,33,Product_Manager,1,0,1,1,24,23,1,0,1,0.63,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+333,334,400068,Male,123064,Bachelor's Degree,26,Investment Banker,1,1,1,1,8,26,0,1,0,0.75,0.39,Premium_Customer,Prospect_Potential_Customer
+334,335,400068,Female,144543,Bachelor's Degree,32,Full_Stack_Software_Developer,0,1,0,0,25,20,1,0,1,0.56,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+335,336,400068,Female,142825,Post Doctoral Degree,50,Investment Banker,0,1,1,0,30,9,1,0,1,0.31,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+336,337,400068,Female,44722,Bachelor's Degree,54,Blockchain_Developer,0,1,0,0,16,6,1,0,1,0.56,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+337,338,400068,Female,76468,Post Doctoral Degree,42,Machine_Learning_Expert,0,0,1,1,5,17,1,0,1,0.77,0.29,Premium_Customer,Prospect_Potential_Customer
+338,339,400068,Male,166845,Bachelor's Degree,28,Data_Scientist,0,1,0,0,29,23,0,0,1,0.68,0.53,Potential_Customer,Prospect_Potential_Customer
+339,340,400068,Male,168123,Post Doctoral Degree,37,Corporate_Lawyer,1,1,1,1,29,7,0,1,0,0.51,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+340,341,400058,Male,168538,Post Doctoral Degree,25,Data_Scientist,1,0,0,1,24,12,0,0,1,0.74,0.55,Potential_Customer,Prospect_Potential_Customer
+341,342,400058,Female,144274,Bachelor's Degree,37,Corporate_Lawyer,0,1,1,0,1,1,0,0,1,0.51,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+342,343,400058,Female,40375,Post Doctoral Degree,34,Product_Manager,1,1,1,1,6,18,0,0,1,0.57,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+343,344,400058,Male,81957,Master's Degree,48,Blockchain_Developer,1,0,0,0,25,28,0,0,1,0.55,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+344,345,400058,Female,140128,Master's Degree,26,Machine_Learning_Expert,1,0,1,1,2,19,0,1,0,0.73,0.25,Premium_Customer,Prospect_Potential_Customer
+345,346,400058,Female,183435,Master's Degree,49,Full_Stack_Software_Developer,1,0,1,0,24,13,0,1,0,0.43,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+346,347,400058,Male,182343,Bachelor's Degree,47,Full_Stack_Software_Developer,0,0,1,0,27,25,0,0,1,0.42,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+347,348,400058,Male,75138,Post Doctoral Degree,59,Full_Stack_Software_Developer,0,0,1,1,26,30,1,0,1,0.3,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+348,349,400058,Female,61738,Master's Degree,58,Product_Manager,0,0,0,1,7,10,1,0,1,0.54,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+349,350,400058,Female,176171,Bachelor's Degree,50,Machine_Learning_Expert,1,0,1,0,29,2,1,0,1,0.35,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+350,351,400011,Male,103923,Master's Degree,29,Full_Stack_Software_Developer,1,0,1,0,4,29,1,0,1,0.58,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+351,352,400011,Male,88505,Post Doctoral Degree,48,Management_Consultant,1,1,1,0,21,8,1,0,1,0.16,0.79,Non_Premium_Customer,Prospect_Potential_Customer
+352,353,400011,Male,39308,Master's Degree,24,Data_Scientist,0,0,0,1,13,26,0,1,0,0.44,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+353,354,400011,Female,149019,Master's Degree,41,Management_Consultant,1,1,1,0,17,2,1,0,1,0.46,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+354,355,400011,Male,104534,Bachelor's Degree,54,Management_Consultant,0,0,1,0,23,11,1,0,1,0.47,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+355,356,400011,Male,81488,Post Doctoral Degree,38,Data_Scientist,1,1,1,0,18,22,1,0,1,0.3,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+356,357,400011,Male,187404,Bachelor's Degree,29,Investment Banker,0,0,1,1,16,15,0,0,1,0.62,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+357,358,400011,Male,123155,Bachelor's Degree,29,Investment Banker,0,0,1,0,3,28,0,0,1,0.75,0.34,Premium_Customer,Prospect_Potential_Customer
+358,359,400011,Male,104035,Post Doctoral Degree,49,Machine_Learning_Expert,1,0,1,1,22,7,0,0,1,0.36,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+359,360,400011,Male,125779,Master's Degree,28,Machine_Learning_Expert,1,1,0,1,2,20,0,0,1,0.77,0.35,Premium_Customer,Prospect_Potential_Customer
+360,361,400022,Male,181849,Master's Degree,37,Product_Manager,0,0,1,0,4,22,0,1,0,0.53,0.29,Non_Potential_Customer,Prospect_Non_Potential_Customer
+361,362,400022,Female,180260,Bachelor's Degree,30,Product_Manager,1,0,1,0,11,10,1,0,1,0.57,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+362,363,400022,Female,66064,Bachelor's Degree,38,Blockchain_Developer,1,0,1,0,19,2,0,1,0,0.54,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+363,364,400022,Female,198964,Master's Degree,39,Blockchain_Developer,1,0,1,1,2,22,1,1,0,0.54,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+364,365,400022,Female,75752,Post Doctoral Degree,42,Corporate_Lawyer,1,1,0,0,9,27,0,1,0,0.63,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+365,366,400022,Male,82241,Master's Degree,37,Data_Scientist,0,0,0,1,2,28,0,1,0,0.44,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+366,367,400022,Male,94166,Post Doctoral Degree,32,Investment Banker,0,0,0,0,26,8,1,0,1,0.58,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+367,368,400022,Female,89026,Master's Degree,35,Investment Banker,0,1,1,0,11,30,1,1,0,0.47,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+368,369,400022,Female,116352,Bachelor's Degree,30,Data_Scientist,0,0,1,0,26,30,0,0,1,0.38,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+369,370,400022,Male,153730,Bachelor's Degree,52,Machine_Learning_Expert,0,1,1,1,6,15,0,1,0,0.65,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+370,371,400708,Male,139949,Post Doctoral Degree,44,Data_Scientist,0,1,1,1,19,8,0,0,1,0.35,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+371,372,400708,Female,128272,Post Doctoral Degree,40,Full_Stack_Software_Developer,0,0,1,1,6,6,1,1,0,0.72,0.37,Premium_Customer,Prospect_Potential_Customer
+372,373,400708,Female,105945,Bachelor's Degree,37,Machine_Learning_Expert,0,1,0,1,5,24,0,0,1,0.51,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+373,374,400708,Female,123398,Post Doctoral Degree,34,Management_Consultant,0,0,1,0,3,16,0,0,1,0.69,0.42,Premium_Customer,Prospect_Potential_Customer
+374,375,400708,Female,169090,Master's Degree,46,Data_Scientist,0,1,0,0,3,11,0,0,1,0.41,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+375,376,400708,Female,154395,Master's Degree,36,Corporate_Lawyer,0,1,1,0,30,2,0,0,1,0.4,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+376,377,400708,Male,110087,Bachelor's Degree,26,Data_Scientist,0,0,1,1,4,26,0,0,1,0.49,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+377,378,400708,Male,43903,Bachelor's Degree,60,Machine_Learning_Expert,0,0,0,0,13,16,1,1,0,0.63,0.29,Non_Potential_Customer,Prospect_Non_Potential_Customer
+378,379,400708,Female,56713,Bachelor's Degree,50,Management_Consultant,0,1,0,1,9,28,1,1,0,0.52,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+379,380,400708,Female,67177,Master's Degree,34,Investment Banker,1,0,0,0,21,10,0,1,0,0.63,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+380,381,400606,Female,120160,Post Doctoral Degree,27,Full_Stack_Software_Developer,0,1,0,0,27,26,1,0,1,0.61,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+381,382,400606,Male,70522,Master's Degree,48,Data_Scientist,0,0,1,1,14,21,1,0,1,0.53,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+382,383,400606,Male,38371,Post Doctoral Degree,31,Blockchain_Developer,1,1,0,0,7,26,0,0,1,0.59,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+383,384,400606,Female,41619,Bachelor's Degree,30,Management_Consultant,1,0,1,1,6,30,0,0,1,0.69,0.64,Potential_Customer,Prospect_Potential_Customer
+384,385,400606,Female,55448,Bachelor's Degree,54,Product_Manager,1,1,1,1,12,23,1,0,1,0.49,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+385,386,400606,Female,125382,Master's Degree,29,Blockchain_Developer,0,1,1,0,18,30,1,0,1,0.3,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+386,387,400606,Female,86681,Post Doctoral Degree,25,Blockchain_Developer,1,0,0,1,17,6,1,1,0,0.68,0.48,Premium_Customer,Prospect_Potential_Customer
+387,388,400606,Male,62163,Post Doctoral Degree,44,Data_Scientist,1,1,0,1,15,4,0,0,1,0.22,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+388,389,400606,Female,151946,Master's Degree,45,Investment Banker,0,1,0,0,9,4,0,0,1,0.39,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+389,390,400606,Female,157627,Post Doctoral Degree,46,Machine_Learning_Expert,1,0,1,0,27,13,1,0,1,0.51,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+390,391,400602,Female,146508,Post Doctoral Degree,40,Machine_Learning_Expert,1,1,1,1,8,9,0,0,1,0.56,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+391,392,400602,Male,158139,Master's Degree,30,Investment Banker,0,0,0,1,13,25,0,0,1,0.58,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+392,393,400602,Female,91246,Bachelor's Degree,29,Data_Scientist,0,1,1,1,20,10,1,0,1,0.31,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+393,394,400602,Female,59800,Post Doctoral Degree,29,Corporate_Lawyer,1,0,1,1,9,29,1,0,1,0.62,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+394,395,400602,Female,163547,Post Doctoral Degree,59,Corporate_Lawyer,0,1,1,1,12,5,1,0,1,0.28,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+395,396,400602,Male,127543,Post Doctoral Degree,34,Management_Consultant,1,1,1,1,3,16,0,0,1,0.71,0.37,Premium_Customer,Prospect_Potential_Customer
+396,397,400602,Male,143078,Master's Degree,50,Machine_Learning_Expert,0,0,1,0,10,21,1,0,1,0.6,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+397,398,400602,Male,77286,Bachelor's Degree,52,Management_Consultant,1,1,1,0,6,29,0,0,1,0.48,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+398,399,400602,Male,162090,Bachelor's Degree,54,Corporate_Lawyer,1,0,1,1,20,27,1,0,1,0.4,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+399,400,400602,Male,154824,Master's Degree,49,Data_Scientist,1,1,0,0,29,30,1,1,0,0.46,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+400,401,400601,Male,89329,Post Doctoral Degree,26,Data_Scientist,0,0,0,0,15,27,1,1,0,0.67,0.32,Premium_Customer,Prospect_Potential_Customer
+401,402,400601,Male,100718,Bachelor's Degree,54,Corporate_Lawyer,1,1,1,0,4,27,0,0,1,0.58,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+402,403,400601,Male,147863,Bachelor's Degree,44,Data_Scientist,1,1,0,0,11,7,1,0,1,0.4,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+403,404,400601,Female,168487,Bachelor's Degree,37,Product_Manager,1,0,1,1,13,28,1,0,1,0.51,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+404,405,400601,Female,155699,Master's Degree,27,Blockchain_Developer,1,1,1,0,21,3,0,1,0,0.46,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+405,406,400601,Female,100942,Bachelor's Degree,32,Full_Stack_Software_Developer,0,1,1,1,22,6,0,1,0,0.59,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+406,407,400601,Female,50894,Post Doctoral Degree,34,Corporate_Lawyer,0,1,1,0,7,24,0,0,1,0.61,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+407,408,400601,Male,156024,Master's Degree,60,Full_Stack_Software_Developer,0,0,1,1,17,13,1,1,0,0.39,0.4,Non_Potential_Customer,Prospect_Non_Potential_Customer
+408,409,400601,Male,129555,Master's Degree,59,Machine_Learning_Expert,0,0,1,1,12,20,0,0,1,0.61,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+409,410,400601,Female,42342,Post Doctoral Degree,28,Product_Manager,1,1,0,0,30,26,0,1,0,0.55,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+410,411,400607,Female,91574,Bachelor's Degree,60,Machine_Learning_Expert,0,1,1,1,8,21,1,0,1,0.58,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+411,412,400607,Male,146891,Bachelor's Degree,32,Investment Banker,1,0,1,1,10,26,1,0,1,0.71,0.58,Potential_Customer,Prospect_Potential_Customer
+412,413,400607,Male,78991,Master's Degree,52,Investment Banker,1,1,0,1,12,8,1,0,1,0.25,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+413,414,400607,Female,173109,Bachelor's Degree,56,Management_Consultant,0,1,1,1,16,19,1,0,1,0.33,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+414,415,400607,Male,150276,Post Doctoral Degree,59,Corporate_Lawyer,1,0,1,0,22,2,1,0,1,0.23,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+415,416,400607,Female,109130,Master's Degree,37,Full_Stack_Software_Developer,0,1,1,0,20,9,0,0,1,0.45,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+416,417,400607,Female,48609,Master's Degree,54,Blockchain_Developer,1,1,0,1,23,6,0,0,1,0.41,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+417,418,400607,Female,80372,Post Doctoral Degree,36,Full_Stack_Software_Developer,0,1,0,1,22,26,1,0,1,0.28,0.83,Non_Premium_Customer,Prospect_Potential_Customer
+418,419,400607,Female,87236,Master's Degree,49,Management_Consultant,1,1,1,1,5,27,1,0,1,0.49,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+419,420,400607,Male,121543,Post Doctoral Degree,59,Blockchain_Developer,0,0,1,1,27,13,0,1,0,0.51,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+420,421,400706,Male,82145,Post Doctoral Degree,47,Product_Manager,0,0,0,0,12,8,0,1,0,0.64,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+421,422,400706,Female,64069,Bachelor's Degree,39,Management_Consultant,1,0,0,0,14,1,1,1,0,0.8,0.38,Premium_Customer,Prospect_Potential_Customer
+422,423,400706,Female,104735,Bachelor's Degree,35,Corporate_Lawyer,1,1,1,0,5,18,1,1,0,0.54,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+423,424,400706,Male,51328,Master's Degree,26,Data_Scientist,0,1,1,0,8,14,0,0,1,0.57,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+424,425,400706,Male,100677,Bachelor's Degree,45,Machine_Learning_Expert,1,1,0,1,28,17,0,1,0,0.54,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+425,426,400706,Male,145811,Master's Degree,26,Management_Consultant,0,1,1,0,20,16,0,0,1,0.59,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+426,427,400706,Male,178039,Post Doctoral Degree,28,Full_Stack_Software_Developer,0,0,0,1,29,3,0,0,1,0.59,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+427,428,400706,Female,176531,Post Doctoral Degree,30,Product_Manager,1,1,1,1,9,24,0,0,1,0.7,0.59,Potential_Customer,Prospect_Potential_Customer
+428,429,400706,Female,47871,Post Doctoral Degree,56,Blockchain_Developer,0,0,1,1,4,2,0,0,1,0.4,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+429,430,400706,Male,138134,Bachelor's Degree,38,Investment Banker,0,0,1,0,20,21,0,1,0,0.57,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+430,431,400703,Male,135069,Master's Degree,32,Blockchain_Developer,0,1,0,0,21,10,1,0,1,0.48,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+431,432,400703,Male,53771,Post Doctoral Degree,53,Corporate_Lawyer,1,1,0,1,9,1,1,0,1,0.36,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+432,433,400703,Male,50493,Master's Degree,25,Management_Consultant,0,1,1,1,3,18,1,0,1,0.5,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+433,434,400703,Female,95050,Post Doctoral Degree,43,Data_Scientist,0,1,0,0,21,20,1,0,1,0.65,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+434,435,400703,Male,167291,Post Doctoral Degree,25,Management_Consultant,0,1,0,1,16,15,0,0,1,0.81,0.67,Potential_Customer,Prospect_Potential_Customer
+435,436,400703,Female,124331,Post Doctoral Degree,29,Management_Consultant,0,0,0,0,2,29,0,0,1,0.64,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+436,437,400703,Female,173226,Post Doctoral Degree,49,Full_Stack_Software_Developer,0,0,0,0,19,15,1,0,1,0.35,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+437,438,400703,Male,127007,Post Doctoral Degree,57,Blockchain_Developer,1,1,0,0,23,8,1,0,1,0.19,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+438,439,400703,Female,165956,Post Doctoral Degree,43,Product_Manager,0,1,0,0,4,21,0,1,0,0.66,0.38,Premium_Customer,Prospect_Potential_Customer
+439,440,400703,Male,175828,Master's Degree,50,Management_Consultant,1,1,0,0,19,8,0,0,1,0.26,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+440,441,400705,Male,181753,Bachelor's Degree,46,Investment Banker,1,1,0,1,1,9,1,0,1,0.32,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+441,442,400705,Female,122057,Post Doctoral Degree,46,Corporate_Lawyer,1,0,0,1,23,17,0,1,0,0.52,0.28,Non_Potential_Customer,Prospect_Non_Potential_Customer
+442,443,400705,Male,58465,Master's Degree,51,Data_Scientist,0,1,1,0,10,16,1,0,1,0.43,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+443,444,400705,Male,102536,Master's Degree,36,Management_Consultant,0,0,0,1,23,11,0,0,1,0.61,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+444,445,400705,Male,36994,Post Doctoral Degree,51,Corporate_Lawyer,0,0,0,1,11,30,1,0,1,0.36,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+445,446,400705,Male,140364,Bachelor's Degree,54,Full_Stack_Software_Developer,0,0,0,1,8,17,1,1,0,0.57,0.31,Non_Potential_Customer,Prospect_Non_Potential_Customer
+446,447,400705,Female,199390,Bachelor's Degree,28,Full_Stack_Software_Developer,0,0,0,1,17,21,0,0,1,0.63,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+447,448,400705,Male,124638,Master's Degree,57,Product_Manager,0,1,1,0,21,19,1,0,1,0.29,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+448,449,400705,Male,96417,Post Doctoral Degree,48,Full_Stack_Software_Developer,1,1,1,1,23,16,0,0,1,0.35,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+449,450,400705,Female,120971,Post Doctoral Degree,30,Corporate_Lawyer,1,0,1,0,6,29,0,0,1,0.71,0.68,Potential_Customer,Prospect_Potential_Customer
+450,451,401107,Female,199475,Post Doctoral Degree,38,Investment Banker,0,1,0,0,17,5,0,0,1,0.46,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+451,452,401107,Male,165652,Bachelor's Degree,48,Full_Stack_Software_Developer,0,1,0,0,11,8,1,0,1,0.45,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+452,453,401107,Female,105413,Bachelor's Degree,42,Machine_Learning_Expert,0,0,0,1,16,4,0,0,1,0.46,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+453,454,401107,Male,198191,Post Doctoral Degree,57,Data_Scientist,1,0,1,0,11,5,0,0,1,0.22,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+454,455,401107,Female,93810,Post Doctoral Degree,52,Product_Manager,1,1,1,0,24,13,0,0,1,0.25,0.74,Non_Premium_Customer,Prospect_Potential_Customer
+455,456,401107,Female,57647,Bachelor's Degree,32,Machine_Learning_Expert,0,1,1,1,3,29,0,0,1,0.47,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+456,457,401107,Female,62896,Post Doctoral Degree,50,Data_Scientist,1,0,0,1,24,26,1,0,1,0.32,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+457,458,401107,Female,169951,Master's Degree,34,Corporate_Lawyer,1,0,1,0,27,30,0,0,1,0.36,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+458,459,401107,Male,77277,Bachelor's Degree,26,Product_Manager,1,0,1,0,12,23,0,1,0,0.69,0.5,Potential_Customer,Prospect_Potential_Customer
+459,460,401107,Male,75920,Master's Degree,32,Product_Manager,0,1,1,1,3,27,0,1,0,0.58,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+460,461,400709,Female,170451,Post Doctoral Degree,37,Blockchain_Developer,1,0,1,0,21,26,0,0,1,0.46,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+461,462,400709,Male,51949,Master's Degree,47,Machine_Learning_Expert,0,0,1,1,24,11,0,0,1,0.51,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+462,463,400709,Female,181357,Post Doctoral Degree,53,Data_Scientist,1,0,0,0,18,30,1,0,1,0.45,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+463,464,400709,Female,98324,Post Doctoral Degree,55,Data_Scientist,0,0,0,0,11,29,1,0,1,0.46,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+464,465,400709,Female,193642,Post Doctoral Degree,37,Machine_Learning_Expert,0,1,1,0,29,15,0,0,1,0.45,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+465,466,400709,Female,99567,Master's Degree,43,Data_Scientist,1,1,1,0,14,20,1,0,1,0.43,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+466,467,400709,Female,191471,Post Doctoral Degree,49,Corporate_Lawyer,0,0,1,0,7,22,1,1,0,0.36,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+467,468,400709,Male,199605,Post Doctoral Degree,57,Blockchain_Developer,1,1,0,0,9,23,1,1,0,0.52,0.33,Non_Potential_Customer,Prospect_Non_Potential_Customer
+468,469,400709,Male,137448,Master's Degree,32,Management_Consultant,0,1,0,0,7,7,0,1,0,0.64,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+469,470,400709,Male,84165,Bachelor's Degree,35,Corporate_Lawyer,1,0,0,0,5,9,1,0,1,0.56,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+470,471,400701,Male,118078,Bachelor's Degree,54,Product_Manager,0,1,0,1,22,16,1,0,1,0.29,0.79,Non_Premium_Customer,Prospect_Potential_Customer
+471,472,400701,Male,87755,Master's Degree,47,Investment Banker,1,0,1,0,10,16,1,0,1,0.38,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+472,473,400701,Female,85132,Master's Degree,44,Full_Stack_Software_Developer,0,0,0,0,27,15,0,0,1,0.67,0.41,Premium_Customer,Prospect_Potential_Customer
+473,474,400701,Male,61585,Bachelor's Degree,48,Investment Banker,0,0,1,1,4,16,1,1,0,0.58,0.4,Non_Potential_Customer,Prospect_Non_Potential_Customer
+474,475,400701,Male,87989,Master's Degree,46,Management_Consultant,1,0,1,1,15,3,1,0,1,0.6,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+475,476,400701,Male,37691,Post Doctoral Degree,42,Blockchain_Developer,1,0,1,1,17,20,0,0,1,0.32,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+476,477,400701,Male,121347,Bachelor's Degree,38,Corporate_Lawyer,0,0,0,0,17,17,1,0,1,0.35,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+477,478,400701,Male,38481,Post Doctoral Degree,37,Investment Banker,0,1,0,0,12,18,0,0,1,0.39,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+478,479,400701,Male,34527,Master's Degree,25,Full_Stack_Software_Developer,1,0,1,0,12,22,0,0,1,0.65,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+479,480,400701,Female,117313,Post Doctoral Degree,43,Data_Scientist,0,0,1,1,14,5,0,0,1,0.62,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+480,481,401101,Female,65786,Post Doctoral Degree,29,Corporate_Lawyer,0,1,0,0,21,3,1,0,1,0.58,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+481,482,401101,Female,146440,Post Doctoral Degree,55,Blockchain_Developer,0,1,1,1,12,17,0,0,1,0.33,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+482,483,401101,Female,126548,Bachelor's Degree,39,Management_Consultant,1,1,1,1,18,30,1,0,1,0.26,0.76,Non_Premium_Customer,Prospect_Potential_Customer
+483,484,401101,Male,142450,Bachelor's Degree,33,Data_Scientist,0,0,1,0,22,3,1,0,1,0.36,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+484,485,401101,Female,83269,Master's Degree,55,Product_Manager,0,0,0,0,12,19,0,1,0,0.66,0.29,Premium_Customer,Prospect_Potential_Customer
+485,486,401101,Male,194760,Master's Degree,51,Investment Banker,0,1,0,0,12,10,0,0,1,0.31,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+486,487,401101,Female,106592,Bachelor's Degree,32,Corporate_Lawyer,0,1,0,1,19,11,1,1,0,0.52,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+487,488,401101,Male,50087,Bachelor's Degree,35,Blockchain_Developer,1,1,1,0,29,15,1,0,1,0.29,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+488,489,401101,Male,139782,Post Doctoral Degree,39,Product_Manager,0,0,1,1,30,1,0,1,0,0.63,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+489,490,401101,Male,30233,Post Doctoral Degree,58,Investment Banker,1,0,1,1,30,29,1,0,1,0.32,0.76,Non_Premium_Customer,Prospect_Potential_Customer
+490,491,401208,Female,147965,Master's Degree,44,Investment Banker,1,1,0,1,11,3,1,0,1,0.42,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+491,492,401208,Male,123789,Master's Degree,51,Full_Stack_Software_Developer,1,0,1,0,16,18,0,0,1,0.35,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+492,493,401208,Female,131716,Bachelor's Degree,51,Data_Scientist,0,1,0,1,22,5,0,1,0,0.45,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+493,494,401208,Male,126305,Bachelor's Degree,29,Data_Scientist,0,1,0,0,22,3,0,1,0,0.66,0.56,Potential_Customer,Prospect_Potential_Customer
+494,495,401208,Female,148956,Bachelor's Degree,34,Product_Manager,1,0,0,1,19,24,0,0,1,0.7,0.3,Premium_Customer,Prospect_Potential_Customer
+495,496,401208,Female,191290,Post Doctoral Degree,47,Management_Consultant,1,1,1,0,19,21,1,0,1,0.58,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+496,497,401208,Female,67313,Bachelor's Degree,58,Product_Manager,0,0,1,1,5,8,1,0,1,0.68,0.39,Premium_Customer,Prospect_Potential_Customer
+497,498,401208,Male,184573,Master's Degree,46,Product_Manager,0,1,0,0,9,13,0,0,1,0.43,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+498,499,401208,Male,149985,Bachelor's Degree,60,Blockchain_Developer,0,1,0,0,19,26,0,0,1,0.48,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+499,500,401208,Male,111870,Post Doctoral Degree,36,Machine_Learning_Expert,0,1,0,0,27,19,0,0,1,0.31,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+500,501,410210,Female,105134,Master's Degree,41,Management_Consultant,0,0,0,1,7,7,1,0,1,0.61,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+501,502,410210,Male,78771,Post Doctoral Degree,48,Full_Stack_Software_Developer,1,0,1,0,27,15,1,0,1,0.28,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+502,503,410210,Male,196080,Post Doctoral Degree,49,Blockchain_Developer,0,0,0,1,7,23,1,1,0,0.58,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+503,504,410210,Male,40302,Post Doctoral Degree,32,Corporate_Lawyer,0,0,0,1,9,20,0,0,1,0.57,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+504,505,410210,Female,154288,Bachelor's Degree,37,Investment Banker,1,0,0,1,3,15,0,1,0,0.46,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+505,506,410210,Male,105068,Post Doctoral Degree,36,Management_Consultant,1,0,0,0,4,25,1,0,1,0.63,0.31,Non_Potential_Customer,Prospect_Non_Potential_Customer
+506,507,410210,Male,132751,Bachelor's Degree,25,Blockchain_Developer,0,0,0,1,27,7,1,0,1,0.3,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+507,508,410210,Female,164906,Master's Degree,35,Product_Manager,1,1,1,1,21,15,1,1,0,0.24,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+508,509,410210,Male,155107,Post Doctoral Degree,34,Data_Scientist,0,1,0,1,19,13,1,0,1,0.73,0.67,Potential_Customer,Prospect_Potential_Customer
+509,510,410210,Male,192830,Bachelor's Degree,35,Full_Stack_Software_Developer,1,0,0,0,8,4,1,1,0,0.8,0.4,Premium_Customer,Prospect_Potential_Customer
+510,511,410218,Male,188070,Bachelor's Degree,46,Management_Consultant,0,1,0,0,28,17,1,0,1,0.45,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+511,512,410218,Female,89591,Master's Degree,30,Investment Banker,1,1,1,1,6,11,1,1,0,0.56,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+512,513,410218,Male,156953,Bachelor's Degree,50,Investment Banker,1,1,1,1,28,3,1,0,1,0.43,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+513,514,410218,Female,106808,Bachelor's Degree,50,Product_Manager,1,0,1,0,4,10,1,1,0,0.4,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+514,515,410218,Female,57552,Post Doctoral Degree,33,Investment Banker,1,1,0,1,21,29,1,1,0,0.5,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+515,516,410218,Female,143604,Master's Degree,52,Blockchain_Developer,1,1,1,1,11,5,0,0,1,0.34,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+516,517,410218,Female,181940,Post Doctoral Degree,53,Corporate_Lawyer,1,0,1,0,28,23,1,0,1,0.19,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+517,518,410218,Female,145161,Post Doctoral Degree,38,Management_Consultant,0,1,1,1,6,4,0,0,1,0.72,0.38,Premium_Customer,Prospect_Potential_Customer
+518,519,410218,Male,151329,Master's Degree,41,Blockchain_Developer,1,1,1,1,29,27,1,0,1,0.28,0.84,Non_Premium_Customer,Prospect_Potential_Customer
+519,520,410218,Male,118168,Master's Degree,33,Corporate_Lawyer,1,0,0,0,14,13,1,0,1,0.61,0.4,Non_Potential_Customer,Prospect_Non_Potential_Customer
+520,521,410206,Female,39493,Post Doctoral Degree,29,Investment Banker,1,1,1,0,6,21,1,0,1,0.63,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+521,522,410206,Female,187640,Master's Degree,56,Full_Stack_Software_Developer,1,1,1,1,15,27,0,0,1,0.43,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+522,523,410206,Male,54970,Post Doctoral Degree,44,Investment Banker,1,1,1,0,10,17,0,0,1,0.42,0.74,Non_Premium_Customer,Prospect_Potential_Customer
+523,524,410206,Male,66191,Bachelor's Degree,25,Full_Stack_Software_Developer,1,1,1,0,8,23,1,0,1,0.77,0.48,Premium_Customer,Prospect_Potential_Customer
+524,525,410206,Male,96879,Post Doctoral Degree,59,Corporate_Lawyer,0,1,0,1,9,6,1,0,1,0.21,0.74,Non_Premium_Customer,Prospect_Potential_Customer
+525,526,410206,Male,124851,Bachelor's Degree,30,Machine_Learning_Expert,0,1,0,1,22,22,0,0,1,0.69,0.62,Potential_Customer,Prospect_Potential_Customer
+526,527,410206,Female,96370,Master's Degree,47,Management_Consultant,1,0,0,1,22,13,1,0,1,0.43,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+527,528,410206,Female,49785,Post Doctoral Degree,46,Data_Scientist,0,0,0,0,30,15,1,1,0,0.51,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+528,529,410206,Male,75075,Bachelor's Degree,51,Management_Consultant,0,1,0,0,9,18,0,0,1,0.53,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+529,530,410206,Male,42570,Post Doctoral Degree,38,Investment Banker,1,1,0,1,7,12,0,0,1,0.41,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+530,531,421204,Male,41079,Post Doctoral Degree,39,Corporate_Lawyer,1,1,0,0,17,27,1,0,1,0.36,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+531,532,421204,Male,150467,Bachelor's Degree,42,Management_Consultant,0,1,1,1,3,29,1,0,1,0.4,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+532,533,421204,Male,37739,Bachelor's Degree,43,Corporate_Lawyer,0,1,0,1,16,5,1,0,1,0.32,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+533,534,421204,Male,194752,Master's Degree,34,Corporate_Lawyer,0,0,0,1,16,9,0,0,1,0.43,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+534,535,421204,Male,87670,Post Doctoral Degree,43,Machine_Learning_Expert,1,0,0,0,13,9,1,0,1,0.66,0.3,Premium_Customer,Prospect_Potential_Customer
+535,536,421204,Male,138589,Master's Degree,59,Investment Banker,0,1,1,1,22,29,0,0,1,0.43,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+536,537,421204,Female,33361,Master's Degree,36,Blockchain_Developer,1,1,1,1,26,3,1,1,0,0.37,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+537,538,421204,Male,105106,Master's Degree,26,Investment Banker,1,0,1,1,6,29,1,0,1,0.58,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+538,539,421204,Female,152801,Master's Degree,53,Investment Banker,1,0,0,0,19,29,1,0,1,0.55,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+539,540,421204,Female,131836,Master's Degree,49,Data_Scientist,0,0,1,1,29,15,1,0,1,0.44,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+540,541,421306,Male,47188,Post Doctoral Degree,57,Corporate_Lawyer,1,1,0,0,5,12,0,0,1,0.34,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+541,542,421306,Male,59882,Master's Degree,35,Investment Banker,0,1,1,1,23,10,1,0,1,0.39,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+542,543,421306,Female,132954,Bachelor's Degree,49,Full_Stack_Software_Developer,0,1,0,0,10,27,0,1,0,0.66,0.43,Premium_Customer,Prospect_Potential_Customer
+543,544,421306,Male,177386,Master's Degree,40,Management_Consultant,0,1,0,0,23,28,1,1,0,0.34,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+544,545,421306,Female,130007,Bachelor's Degree,42,Management_Consultant,0,0,0,1,29,7,0,0,1,0.54,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+545,546,421306,Female,133860,Post Doctoral Degree,36,Full_Stack_Software_Developer,0,0,1,0,3,30,0,0,1,0.63,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+546,547,421306,Female,56084,Post Doctoral Degree,47,Product_Manager,1,0,0,0,6,15,0,0,1,0.47,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+547,548,421306,Male,38754,Post Doctoral Degree,29,Full_Stack_Software_Developer,1,1,0,0,27,27,0,0,1,0.51,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+548,549,421306,Female,125449,Master's Degree,55,Investment Banker,0,1,1,0,16,7,1,0,1,0.38,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+549,550,421306,Male,117441,Master's Degree,51,Data_Scientist,1,1,1,1,6,9,0,0,1,0.32,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+550,551,401202,Female,91785,Post Doctoral Degree,31,Machine_Learning_Expert,0,1,1,1,19,17,1,1,0,0.81,0.47,Premium_Customer,Prospect_Potential_Customer
+551,552,401202,Male,186259,Master's Degree,43,Blockchain_Developer,1,1,0,1,11,7,1,0,1,0.33,0.74,Non_Premium_Customer,Prospect_Potential_Customer
+552,553,401202,Female,166135,Post Doctoral Degree,40,Data_Scientist,1,0,0,1,23,7,1,0,1,0.38,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+553,554,401202,Male,65229,Master's Degree,54,Product_Manager,0,1,0,0,27,24,0,0,1,0.6,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+554,555,401202,Male,153010,Post Doctoral Degree,53,Product_Manager,1,1,1,0,7,23,0,0,1,0.34,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+555,556,401202,Female,59545,Post Doctoral Degree,49,Corporate_Lawyer,0,1,0,1,3,27,1,0,1,0.53,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+556,557,401202,Male,81673,Master's Degree,54,Machine_Learning_Expert,0,0,1,0,12,27,0,1,0,0.65,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+557,558,401202,Female,115491,Bachelor's Degree,55,Investment Banker,0,0,1,1,29,18,0,0,1,0.55,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+558,559,401202,Female,185853,Master's Degree,50,Blockchain_Developer,1,1,0,1,17,13,1,0,1,0.38,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+559,560,401202,Female,151695,Bachelor's Degree,49,Full_Stack_Software_Developer,1,1,1,0,2,17,1,1,0,0.67,0.3,Premium_Customer,Prospect_Potential_Customer
+560,561,421302,Male,128298,Master's Degree,38,Full_Stack_Software_Developer,0,0,1,1,4,10,1,1,0,0.68,0.41,Premium_Customer,Prospect_Potential_Customer
+561,562,421302,Female,75495,Post Doctoral Degree,29,Machine_Learning_Expert,0,0,1,0,24,7,1,0,1,0.78,0.59,Potential_Customer,Prospect_Potential_Customer
+562,563,421302,Male,106474,Bachelor's Degree,31,Blockchain_Developer,0,0,1,1,6,30,1,0,1,0.39,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+563,564,421302,Female,67026,Bachelor's Degree,47,Management_Consultant,0,0,1,1,26,22,1,0,1,0.5,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+564,565,421302,Male,180756,Post Doctoral Degree,42,Management_Consultant,0,0,0,0,8,23,1,0,1,0.53,0.29,Non_Potential_Customer,Prospect_Non_Potential_Customer
+565,566,421302,Female,119910,Post Doctoral Degree,29,Data_Scientist,1,1,0,0,15,6,1,1,0,0.71,0.49,Potential_Customer,Prospect_Potential_Customer
+566,567,421302,Male,185829,Bachelor's Degree,59,Management_Consultant,1,1,1,0,1,29,0,0,1,0.48,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+567,568,421302,Male,168945,Post Doctoral Degree,30,Machine_Learning_Expert,0,0,1,1,13,23,1,0,1,0.71,0.38,Premium_Customer,Prospect_Potential_Customer
+568,569,421302,Male,121953,Bachelor's Degree,36,Full_Stack_Software_Developer,0,1,1,1,21,3,1,0,1,0.34,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+569,570,421302,Female,68122,Master's Degree,37,Blockchain_Developer,0,0,0,0,30,27,1,1,0,0.46,0.72,Non_Premium_Customer,Prospect_Potential_Customer
+570,571,421503,Male,173570,Post Doctoral Degree,52,Product_Manager,0,1,1,0,21,24,1,0,1,0.33,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+571,572,421503,Male,89889,Master's Degree,40,Management_Consultant,0,1,0,0,9,13,1,0,1,0.54,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+572,573,421503,Male,54829,Bachelor's Degree,50,Full_Stack_Software_Developer,0,0,0,1,2,1,0,0,1,0.52,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+573,574,421503,Female,31642,Master's Degree,25,Full_Stack_Software_Developer,1,0,1,0,25,20,0,0,1,0.47,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+574,575,421503,Female,152190,Master's Degree,40,Investment Banker,0,0,0,0,2,14,0,0,1,0.61,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+575,576,421503,Male,172788,Post Doctoral Degree,35,Product_Manager,1,1,1,1,22,3,1,1,0,0.54,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+576,577,421503,Female,103926,Master's Degree,42,Blockchain_Developer,1,1,1,1,27,10,0,0,1,0.34,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+577,578,421503,Male,34619,Master's Degree,32,Data_Scientist,0,1,0,0,20,20,1,0,1,0.54,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+578,579,421503,Female,171315,Master's Degree,44,Management_Consultant,0,0,0,1,21,20,1,1,0,0.3,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+579,580,421503,Female,172280,Post Doctoral Degree,54,Machine_Learning_Expert,1,1,0,0,2,14,0,0,1,0.47,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+580,581,421201,Female,191217,Post Doctoral Degree,37,Management_Consultant,1,1,0,0,23,8,0,0,1,0.45,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+581,582,421201,Male,58857,Bachelor's Degree,26,Management_Consultant,0,1,1,1,26,9,1,1,0,0.48,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+582,583,421201,Female,39874,Bachelor's Degree,50,Blockchain_Developer,0,1,1,1,5,12,0,0,1,0.55,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+583,584,421201,Male,184415,Post Doctoral Degree,45,Product_Manager,1,1,0,1,8,8,0,0,1,0.54,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+584,585,421201,Female,91904,Master's Degree,35,Corporate_Lawyer,1,0,1,1,7,17,1,0,1,0.58,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+585,586,421201,Male,59754,Post Doctoral Degree,43,Investment Banker,0,1,1,0,5,28,0,1,0,0.46,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+586,587,421201,Female,120839,Bachelor's Degree,58,Full_Stack_Software_Developer,0,1,0,1,29,18,1,0,1,0.42,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+587,588,421201,Male,145534,Post Doctoral Degree,56,Machine_Learning_Expert,0,0,1,0,18,29,1,0,1,0.35,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+588,589,421201,Female,151084,Bachelor's Degree,46,Blockchain_Developer,1,1,1,0,26,14,0,0,1,0.42,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+589,590,421201,Female,171056,Bachelor's Degree,28,Product_Manager,1,1,1,1,14,3,0,0,1,0.61,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+590,591,401203,Male,109165,Master's Degree,39,Full_Stack_Software_Developer,1,1,0,1,26,4,0,0,1,0.47,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+591,592,401203,Male,174619,Bachelor's Degree,53,Data_Scientist,0,1,1,1,25,27,1,0,1,0.33,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+592,593,401203,Male,41448,Post Doctoral Degree,57,Data_Scientist,0,1,0,1,26,25,1,0,1,0.23,0.82,Non_Premium_Customer,Prospect_Potential_Customer
+593,594,401203,Male,144457,Bachelor's Degree,24,Corporate_Lawyer,0,0,0,0,8,18,0,0,1,0.77,0.37,Premium_Customer,Prospect_Potential_Customer
+594,595,401203,Male,198679,Master's Degree,53,Corporate_Lawyer,1,0,1,0,4,16,1,0,1,0.33,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+595,596,401203,Female,48494,Post Doctoral Degree,43,Corporate_Lawyer,0,1,0,1,11,5,1,1,0,0.49,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+596,597,401203,Male,125556,Post Doctoral Degree,39,Data_Scientist,1,1,0,1,27,2,0,0,1,0.45,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+597,598,401203,Female,174722,Post Doctoral Degree,30,Full_Stack_Software_Developer,1,0,0,1,1,22,0,0,1,0.7,0.4,Premium_Customer,Prospect_Potential_Customer
+598,599,401203,Female,47681,Bachelor's Degree,26,Corporate_Lawyer,0,1,1,0,10,21,0,0,1,0.53,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+599,600,401203,Female,45984,Master's Degree,29,Corporate_Lawyer,1,0,0,0,2,3,0,0,1,0.5,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+600,601,421501,Male,153529,Bachelor's Degree,56,Full_Stack_Software_Developer,0,1,0,1,25,28,1,0,1,0.39,0.89,Non_Premium_Customer,Prospect_Potential_Customer
+601,602,421501,Female,62221,Master's Degree,50,Data_Scientist,0,1,0,1,23,17,1,1,0,0.44,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+602,603,421501,Male,46310,Master's Degree,29,Blockchain_Developer,1,0,0,1,19,14,0,0,1,0.57,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+603,604,421501,Female,105367,Post Doctoral Degree,44,Blockchain_Developer,1,1,1,0,28,25,1,0,1,0.33,0.78,Non_Premium_Customer,Prospect_Potential_Customer
+604,605,421501,Female,68563,Master's Degree,44,Management_Consultant,0,0,0,1,26,17,1,1,0,0.46,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+605,606,421501,Male,52562,Bachelor's Degree,40,Management_Consultant,1,0,0,1,30,26,0,0,1,0.49,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+606,607,421501,Male,190854,Master's Degree,29,Data_Scientist,1,1,0,0,23,15,1,1,0,0.82,0.48,Premium_Customer,Prospect_Potential_Customer
+607,608,421501,Male,109273,Post Doctoral Degree,58,Data_Scientist,1,0,1,0,13,26,0,0,1,0.27,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+608,609,421501,Female,38107,Bachelor's Degree,25,Corporate_Lawyer,0,0,1,1,8,12,0,0,1,0.6,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+609,610,421501,Male,187338,Bachelor's Degree,43,Blockchain_Developer,0,0,1,1,27,21,0,0,1,0.4,0.2,Non_Potential_Customer,Prospect_Non_Potential_Customer
+610,611,421301,Female,81548,Master's Degree,53,Corporate_Lawyer,1,0,0,0,18,1,0,0,1,0.45,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+611,612,421301,Male,62569,Master's Degree,42,Product_Manager,1,0,0,0,18,22,1,1,0,0.57,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+612,613,421301,Male,38155,Post Doctoral Degree,29,Corporate_Lawyer,1,0,1,0,6,23,0,0,1,0.6,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+613,614,421301,Male,80928,Master's Degree,32,Machine_Learning_Expert,1,0,0,1,29,25,0,0,1,0.46,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+614,615,421301,Male,110778,Bachelor's Degree,28,Product_Manager,0,1,1,1,27,7,0,0,1,0.61,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+615,616,421301,Female,91706,Bachelor's Degree,51,Investment Banker,1,1,0,1,22,8,0,0,1,0.61,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+616,617,421301,Female,131762,Bachelor's Degree,59,Management_Consultant,1,1,0,1,20,17,1,0,1,0.28,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+617,618,421301,Male,195765,Post Doctoral Degree,43,Blockchain_Developer,0,1,0,1,18,2,1,0,1,0.49,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+618,619,421301,Female,187942,Post Doctoral Degree,43,Machine_Learning_Expert,0,0,1,0,12,10,1,1,0,0.63,0.33,Non_Potential_Customer,Prospect_Non_Potential_Customer
+619,620,421301,Female,108491,Post Doctoral Degree,27,Machine_Learning_Expert,0,0,0,0,1,24,1,1,0,0.82,0.25,Premium_Customer,Prospect_Potential_Customer
+620,621,410203,Male,150561,Bachelor's Degree,59,Investment Banker,1,1,0,1,16,15,0,1,0,0.43,0.8,Non_Premium_Customer,Prospect_Potential_Customer
+621,622,410203,Male,112475,Bachelor's Degree,48,Product_Manager,0,0,0,1,15,25,1,1,0,0.61,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+622,623,410203,Male,85824,Bachelor's Degree,30,Investment Banker,1,1,1,0,2,10,1,0,1,0.65,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+623,624,410203,Female,197336,Master's Degree,34,Full_Stack_Software_Developer,0,0,0,1,14,10,0,0,1,0.7,0.24,Premium_Customer,Prospect_Potential_Customer
+624,625,410203,Male,139866,Master's Degree,54,Product_Manager,1,0,1,1,9,13,1,1,0,0.4,0.48,Non_Potential_Customer,Prospect_Non_Potential_Customer
+625,626,410203,Female,61969,Bachelor's Degree,38,Blockchain_Developer,0,0,1,0,10,27,0,0,1,0.52,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+626,627,410203,Female,40808,Post Doctoral Degree,29,Corporate_Lawyer,1,1,1,0,21,29,0,0,1,0.43,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+627,628,410203,Female,32642,Master's Degree,55,Management_Consultant,0,1,1,0,20,24,0,0,1,0.61,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+628,629,410203,Male,123740,Master's Degree,44,Blockchain_Developer,1,1,0,0,25,11,1,0,1,0.41,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+629,630,410203,Female,173634,Bachelor's Degree,30,Investment Banker,1,0,1,0,5,23,0,1,0,0.67,0.5,Potential_Customer,Prospect_Potential_Customer
+630,631,411019,Female,125874,Master's Degree,33,Investment Banker,0,0,0,1,9,18,1,1,0,0.62,0.4,Non_Potential_Customer,Prospect_Non_Potential_Customer
+631,632,411019,Male,132189,Post Doctoral Degree,48,Management_Consultant,0,0,1,0,3,20,0,1,0,0.54,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+632,633,411019,Male,196328,Bachelor's Degree,49,Investment Banker,1,1,1,0,25,15,0,1,0,0.55,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+633,634,411019,Female,167554,Bachelor's Degree,56,Product_Manager,0,0,1,1,20,16,0,0,1,0.55,0.3,Non_Potential_Customer,Prospect_Non_Potential_Customer
+634,635,411019,Male,101037,Post Doctoral Degree,52,Product_Manager,0,1,1,0,25,19,1,0,1,0.18,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+635,636,411019,Male,123111,Post Doctoral Degree,33,Investment Banker,0,0,0,0,28,24,1,1,0,0.59,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+636,637,411019,Male,129690,Master's Degree,60,Machine_Learning_Expert,0,0,0,0,25,29,0,0,1,0.49,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+637,638,411019,Female,148967,Bachelor's Degree,40,Investment Banker,1,0,1,0,7,1,0,1,0,0.41,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+638,639,411019,Male,110588,Post Doctoral Degree,33,Data_Scientist,1,0,1,1,21,5,0,0,1,0.7,0.58,Potential_Customer,Prospect_Potential_Customer
+639,640,411019,Male,39408,Post Doctoral Degree,27,Product_Manager,1,1,0,0,17,29,1,0,1,0.61,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+640,641,411012,Female,106403,Master's Degree,41,Data_Scientist,0,1,1,0,25,19,0,0,1,0.4,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+641,642,411012,Male,99978,Bachelor's Degree,25,Product_Manager,0,1,0,0,26,19,0,1,0,0.68,0.59,Potential_Customer,Prospect_Potential_Customer
+642,643,411012,Male,140289,Master's Degree,43,Data_Scientist,1,1,0,1,7,21,1,0,1,0.23,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+643,644,411012,Female,33786,Master's Degree,36,Management_Consultant,0,1,0,1,27,3,1,0,1,0.51,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+644,645,411012,Female,127263,Post Doctoral Degree,35,Data_Scientist,1,1,0,0,14,19,0,0,1,0.44,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+645,646,411012,Male,106981,Bachelor's Degree,25,Full_Stack_Software_Developer,1,1,1,1,13,26,0,1,0,0.74,0.44,Premium_Customer,Prospect_Potential_Customer
+646,647,411012,Female,50577,Bachelor's Degree,44,Full_Stack_Software_Developer,0,0,1,0,25,22,1,0,1,0.43,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+647,648,411012,Female,192048,Master's Degree,25,Product_Manager,0,1,0,0,13,20,1,0,1,0.64,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+648,649,411012,Male,70578,Master's Degree,58,Full_Stack_Software_Developer,0,0,1,0,16,14,1,0,1,0.5,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+649,650,411012,Female,182225,Post Doctoral Degree,55,Full_Stack_Software_Developer,1,0,1,1,30,18,1,0,1,0.27,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+650,651,411048,Female,193722,Bachelor's Degree,52,Corporate_Lawyer,1,0,1,1,20,1,0,1,0,0.51,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+651,652,411048,Male,55296,Post Doctoral Degree,25,Investment Banker,1,0,1,0,16,5,1,0,1,0.5,0.72,Non_Premium_Customer,Prospect_Potential_Customer
+652,653,411048,Female,159746,Bachelor's Degree,30,Blockchain_Developer,1,0,1,1,22,24,1,0,1,0.39,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+653,654,411048,Male,144454,Post Doctoral Degree,27,Full_Stack_Software_Developer,1,1,0,1,26,19,1,0,1,0.58,0.77,Non_Premium_Customer,Prospect_Potential_Customer
+654,655,411048,Female,33854,Master's Degree,41,Management_Consultant,0,1,1,1,6,12,0,0,1,0.61,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+655,656,411048,Female,73751,Master's Degree,55,Corporate_Lawyer,0,0,1,0,8,25,0,0,1,0.58,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+656,657,411048,Male,40047,Bachelor's Degree,43,Investment Banker,0,1,0,1,15,12,0,1,0,0.54,0.72,Non_Premium_Customer,Prospect_Potential_Customer
+657,658,411048,Male,126693,Post Doctoral Degree,43,Product_Manager,0,0,1,0,29,17,1,0,1,0.55,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+658,659,411048,Female,38896,Post Doctoral Degree,55,Product_Manager,0,0,1,1,13,10,1,0,1,0.46,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+659,660,411048,Female,86093,Post Doctoral Degree,27,Management_Consultant,1,1,0,1,22,19,0,1,0,0.69,0.57,Potential_Customer,Prospect_Potential_Customer
+660,661,411037,Male,63978,Master's Degree,54,Data_Scientist,0,0,0,0,2,3,0,0,1,0.45,0.29,Non_Potential_Customer,Prospect_Non_Potential_Customer
+661,662,411037,Female,198865,Master's Degree,57,Full_Stack_Software_Developer,0,1,1,0,5,6,1,0,1,0.53,0.28,Non_Potential_Customer,Prospect_Non_Potential_Customer
+662,663,411037,Female,142454,Post Doctoral Degree,27,Management_Consultant,1,0,0,0,16,9,1,0,1,0.69,0.5,Potential_Customer,Prospect_Potential_Customer
+663,664,411037,Female,69988,Master's Degree,37,Blockchain_Developer,1,0,0,0,9,26,1,0,1,0.63,0.42,Non_Potential_Customer,Prospect_Non_Potential_Customer
+664,665,411037,Male,166772,Bachelor's Degree,30,Management_Consultant,1,1,0,1,11,13,0,1,0,0.7,0.54,Potential_Customer,Prospect_Potential_Customer
+665,666,411037,Female,129175,Post Doctoral Degree,31,Investment Banker,0,0,0,1,19,1,1,0,1,0.66,0.63,Potential_Customer,Prospect_Potential_Customer
+666,667,411037,Male,141965,Bachelor's Degree,46,Corporate_Lawyer,0,0,1,0,15,1,0,1,0,0.47,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+667,668,411037,Male,142638,Master's Degree,49,Data_Scientist,0,0,1,1,1,27,1,0,1,0.42,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+668,669,411037,Male,140247,Bachelor's Degree,34,Investment Banker,1,1,0,0,23,2,0,0,1,0.59,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+669,670,411037,Male,150985,Bachelor's Degree,52,Data_Scientist,1,0,1,1,5,26,1,0,1,0.39,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+670,671,411042,Female,156613,Bachelor's Degree,43,Corporate_Lawyer,1,1,1,0,29,8,0,0,1,0.33,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+671,672,411042,Female,195056,Post Doctoral Degree,37,Full_Stack_Software_Developer,0,1,0,0,21,16,1,0,1,0.63,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+672,673,411042,Female,93653,Master's Degree,28,Machine_Learning_Expert,0,1,1,1,28,1,0,0,1,0.43,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+673,674,411042,Female,71204,Bachelor's Degree,40,Management_Consultant,1,1,1,0,2,18,0,0,1,0.42,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+674,675,411042,Female,84802,Master's Degree,29,Investment Banker,1,0,0,0,24,29,0,0,1,0.4,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+675,676,411042,Female,170138,Master's Degree,34,Investment Banker,1,0,0,0,11,9,0,1,0,0.68,0.3,Premium_Customer,Prospect_Potential_Customer
+676,677,411042,Female,124720,Bachelor's Degree,34,Corporate_Lawyer,0,0,1,1,20,10,1,0,1,0.35,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+677,678,411042,Female,72200,Master's Degree,58,Full_Stack_Software_Developer,1,0,1,1,5,25,0,0,1,0.6,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+678,679,411042,Male,96380,Master's Degree,53,Product_Manager,0,1,1,1,7,9,1,1,0,0.56,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+679,680,411042,Female,182527,Master's Degree,44,Investment Banker,1,0,0,1,21,13,1,0,1,0.34,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+680,681,411028,Male,142802,Post Doctoral Degree,34,Full_Stack_Software_Developer,0,1,1,0,18,24,0,1,0,0.71,0.54,Potential_Customer,Prospect_Potential_Customer
+681,682,411028,Female,191623,Master's Degree,31,Product_Manager,1,0,1,1,24,13,0,0,1,0.49,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+682,683,411028,Male,49190,Bachelor's Degree,57,Management_Consultant,0,1,0,1,19,14,1,0,1,0.52,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+683,684,411028,Female,187769,Bachelor's Degree,51,Corporate_Lawyer,0,0,0,0,13,23,1,0,1,0.41,0.33,Non_Potential_Customer,Prospect_Non_Potential_Customer
+684,685,411028,Female,138689,Master's Degree,40,Product_Manager,1,1,1,0,26,6,1,1,0,0.35,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+685,686,411028,Male,173645,Post Doctoral Degree,43,Data_Scientist,1,1,1,0,24,11,1,1,0,0.57,0.66,Non_Premium_Customer,Prospect_Potential_Customer
+686,687,411028,Male,143041,Master's Degree,52,Data_Scientist,1,1,0,1,1,26,0,0,1,0.35,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+687,688,411028,Male,39356,Master's Degree,41,Product_Manager,0,1,1,0,4,4,1,1,0,0.65,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+688,689,411028,Male,192432,Post Doctoral Degree,54,Management_Consultant,1,1,0,1,18,27,0,0,1,0.36,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+689,690,411028,Male,170667,Master's Degree,40,Blockchain_Developer,1,0,1,0,22,9,0,0,1,0.36,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+690,691,411001,Male,96709,Master's Degree,51,Blockchain_Developer,0,0,0,1,24,12,1,0,1,0.41,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+691,692,411001,Male,144830,Post Doctoral Degree,34,Investment Banker,1,0,0,1,20,18,1,0,1,0.64,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+692,693,411001,Female,191363,Post Doctoral Degree,46,Corporate_Lawyer,0,1,0,0,5,1,1,0,1,0.58,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+693,694,411001,Male,56703,Post Doctoral Degree,34,Machine_Learning_Expert,1,0,1,0,26,17,1,0,1,0.61,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+694,695,411001,Female,55244,Post Doctoral Degree,41,Investment Banker,0,1,0,1,28,26,1,0,1,0.29,0.82,Non_Premium_Customer,Prospect_Potential_Customer
+695,696,411001,Male,36336,Bachelor's Degree,57,Product_Manager,0,0,1,0,7,8,0,0,1,0.55,0.46,Non_Potential_Customer,Prospect_Non_Potential_Customer
+696,697,411001,Male,65372,Master's Degree,38,Corporate_Lawyer,1,0,0,0,17,9,1,1,0,0.41,0.67,Non_Premium_Customer,Prospect_Potential_Customer
+697,698,411001,Female,72410,Master's Degree,42,Investment Banker,1,0,1,1,3,4,1,0,1,0.64,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+698,699,411001,Male,185449,Post Doctoral Degree,49,Product_Manager,1,1,0,0,22,26,0,0,1,0.4,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+699,700,411001,Female,96788,Master's Degree,50,Machine_Learning_Expert,1,0,0,0,20,17,1,1,0,0.7,0.38,Premium_Customer,Prospect_Potential_Customer
+700,701,411007,Male,125478,Post Doctoral Degree,36,Full_Stack_Software_Developer,0,1,1,0,12,9,1,1,0,0.79,0.32,Premium_Customer,Prospect_Potential_Customer
+701,702,411007,Female,136962,Master's Degree,26,Corporate_Lawyer,1,1,0,0,11,15,0,0,1,0.6,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+702,703,411007,Male,107219,Bachelor's Degree,45,Machine_Learning_Expert,1,0,0,1,16,9,1,0,1,0.48,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+703,704,411007,Female,170075,Post Doctoral Degree,26,Machine_Learning_Expert,1,0,0,0,14,15,0,0,1,0.71,0.3,Premium_Customer,Prospect_Potential_Customer
+704,705,411007,Female,194718,Bachelor's Degree,41,Management_Consultant,1,0,1,1,23,3,1,0,1,0.37,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+705,706,411007,Female,173866,Master's Degree,57,Machine_Learning_Expert,0,0,1,1,9,18,1,1,0,0.57,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+706,707,411007,Male,167185,Bachelor's Degree,44,Product_Manager,0,0,1,1,27,20,0,0,1,0.48,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+707,708,411007,Female,162642,Master's Degree,47,Data_Scientist,1,1,1,0,11,14,1,0,1,0.45,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+708,709,411007,Female,67488,Bachelor's Degree,37,Machine_Learning_Expert,0,1,1,1,28,27,0,0,1,0.37,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+709,710,411007,Female,166177,Master's Degree,24,Product_Manager,0,0,0,0,6,30,1,0,1,0.71,0.47,Premium_Customer,Prospect_Potential_Customer
+710,711,411033,Female,178945,Bachelor's Degree,25,Machine_Learning_Expert,1,1,0,0,19,16,0,0,1,0.67,0.54,Potential_Customer,Prospect_Potential_Customer
+711,712,411033,Female,194235,Bachelor's Degree,58,Investment Banker,0,1,0,0,7,3,1,1,0,0.67,0.33,Premium_Customer,Prospect_Potential_Customer
+712,713,411033,Female,184611,Master's Degree,25,Data_Scientist,1,1,1,0,11,6,0,0,1,0.55,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+713,714,411033,Male,151582,Bachelor's Degree,32,Investment Banker,1,1,1,0,26,12,0,0,1,0.62,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+714,715,411033,Female,71157,Bachelor's Degree,43,Product_Manager,1,1,1,1,14,26,0,0,1,0.46,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+715,716,411033,Female,107556,Bachelor's Degree,26,Full_Stack_Software_Developer,0,1,1,0,30,28,1,0,1,0.41,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+716,717,411033,Female,126572,Master's Degree,51,Blockchain_Developer,0,0,1,1,12,25,0,1,0,0.6,0.21,Non_Potential_Customer,Prospect_Non_Potential_Customer
+717,718,411033,Female,189324,Master's Degree,32,Machine_Learning_Expert,0,0,0,1,24,8,1,0,1,0.47,0.4,Non_Potential_Customer,Prospect_Non_Potential_Customer
+718,719,411033,Female,130682,Bachelor's Degree,43,Investment Banker,1,0,0,0,13,23,0,1,0,0.54,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+719,720,411033,Male,170186,Master's Degree,57,Full_Stack_Software_Developer,1,0,0,1,2,13,1,0,1,0.44,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+720,721,411004,Female,66683,Post Doctoral Degree,51,Data_Scientist,1,0,0,1,26,11,0,1,0,0.43,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+721,722,411004,Female,179045,Post Doctoral Degree,29,Data_Scientist,1,1,1,1,28,27,1,0,1,0.59,0.7,Non_Premium_Customer,Prospect_Potential_Customer
+722,723,411004,Female,173063,Bachelor's Degree,46,Blockchain_Developer,0,1,0,1,13,27,1,0,1,0.26,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+723,724,411004,Female,137222,Master's Degree,40,Data_Scientist,0,0,1,1,5,10,1,0,1,0.52,0.25,Non_Potential_Customer,Prospect_Non_Potential_Customer
+724,725,411004,Male,169245,Post Doctoral Degree,48,Product_Manager,0,1,0,0,18,25,1,0,1,0.26,0.54,Non_Premium_Customer,Prospect_Potential_Customer
+725,726,411004,Male,136306,Post Doctoral Degree,26,Data_Scientist,1,0,0,0,20,7,1,0,1,0.64,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+726,727,411004,Male,46723,Bachelor's Degree,29,Blockchain_Developer,1,1,1,1,5,15,0,0,1,0.65,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+727,728,411004,Male,169796,Master's Degree,57,Management_Consultant,1,0,0,1,10,5,0,0,1,0.33,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+728,729,411004,Male,85138,Master's Degree,29,Management_Consultant,0,1,1,1,7,11,1,0,1,0.55,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+729,730,411004,Male,70709,Master's Degree,58,Blockchain_Developer,0,0,1,1,14,7,1,0,1,0.48,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+730,731,411038,Female,50421,Master's Degree,31,Full_Stack_Software_Developer,1,0,0,1,27,8,1,0,1,0.51,0.72,Non_Premium_Customer,Prospect_Potential_Customer
+731,732,411038,Male,112869,Bachelor's Degree,53,Corporate_Lawyer,1,1,0,0,5,18,1,0,1,0.49,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+732,733,411038,Male,198807,Master's Degree,26,Blockchain_Developer,1,1,1,0,29,10,1,0,1,0.39,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+733,734,411038,Female,70395,Master's Degree,33,Machine_Learning_Expert,1,1,1,0,28,4,1,0,1,0.43,0.38,Non_Potential_Customer,Prospect_Non_Potential_Customer
+734,735,411038,Male,165774,Bachelor's Degree,48,Management_Consultant,0,0,1,0,1,20,0,0,1,0.53,0.32,Non_Potential_Customer,Prospect_Non_Potential_Customer
+735,736,411038,Male,185533,Bachelor's Degree,59,Data_Scientist,1,1,0,1,13,29,0,0,1,0.34,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+736,737,411038,Male,156008,Bachelor's Degree,47,Corporate_Lawyer,0,0,0,1,7,18,0,0,1,0.59,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+737,738,411038,Male,130983,Bachelor's Degree,54,Management_Consultant,1,1,1,1,20,19,1,0,1,0.34,0.77,Non_Premium_Customer,Prospect_Potential_Customer
+738,739,411038,Female,117924,Post Doctoral Degree,42,Data_Scientist,0,1,0,1,4,9,1,1,0,0.52,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+739,740,411038,Male,48393,Post Doctoral Degree,56,Investment Banker,0,1,0,0,9,13,1,0,1,0.26,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+740,741,411058,Female,41399,Master's Degree,27,Management_Consultant,0,1,0,0,12,25,1,1,0,0.6,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+741,742,411058,Male,97958,Bachelor's Degree,26,Corporate_Lawyer,1,1,0,0,7,2,1,1,0,0.67,0.45,Premium_Customer,Prospect_Potential_Customer
+742,743,411058,Female,187811,Bachelor's Degree,60,Product_Manager,1,1,0,1,12,18,0,0,1,0.56,0.51,Non_Premium_Customer,Prospect_Potential_Customer
+743,744,411058,Male,155600,Post Doctoral Degree,29,Blockchain_Developer,0,1,0,0,6,28,1,0,1,0.74,0.56,Potential_Customer,Prospect_Potential_Customer
+744,745,411058,Male,188574,Bachelor's Degree,29,Full_Stack_Software_Developer,1,1,1,0,9,23,0,0,1,0.7,0.57,Potential_Customer,Prospect_Potential_Customer
+745,746,411058,Female,98974,Master's Degree,26,Machine_Learning_Expert,1,0,0,1,5,24,1,1,0,0.78,0.35,Premium_Customer,Prospect_Potential_Customer
+746,747,411058,Male,168916,Master's Degree,41,Product_Manager,0,1,1,1,25,8,1,0,1,0.34,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+747,748,411058,Female,33530,Post Doctoral Degree,33,Full_Stack_Software_Developer,0,1,1,0,12,27,0,0,1,0.56,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+748,749,411058,Male,142926,Post Doctoral Degree,42,Product_Manager,0,1,0,0,29,15,1,1,0,0.6,0.34,Non_Potential_Customer,Prospect_Non_Potential_Customer
+749,750,411058,Male,176560,Post Doctoral Degree,49,Management_Consultant,0,1,0,0,3,11,1,0,1,0.21,0.5,Non_Premium_Customer,Prospect_Potential_Customer
+750,751,412201,Male,69839,Master's Degree,51,Blockchain_Developer,1,0,0,1,26,21,0,0,1,0.57,0.62,Non_Premium_Customer,Prospect_Potential_Customer
+751,752,412201,Female,54264,Master's Degree,27,Investment Banker,1,0,0,0,30,19,1,0,1,0.57,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+752,753,412201,Male,119473,Master's Degree,48,Data_Scientist,1,0,1,0,1,4,0,0,1,0.14,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+753,754,412201,Male,102336,Post Doctoral Degree,57,Full_Stack_Software_Developer,1,1,1,1,13,30,1,0,1,0.3,0.88,Non_Premium_Customer,Prospect_Potential_Customer
+754,755,412201,Female,31633,Master's Degree,34,Product_Manager,0,1,1,0,4,5,0,0,1,0.52,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+755,756,412201,Male,149535,Bachelor's Degree,55,Management_Consultant,1,1,1,0,6,5,0,0,1,0.41,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+756,757,412201,Female,53587,Bachelor's Degree,38,Corporate_Lawyer,0,1,0,1,3,25,0,1,0,0.65,0.43,Non_Potential_Customer,Prospect_Non_Potential_Customer
+757,758,412201,Male,100997,Bachelor's Degree,41,Investment Banker,0,1,1,1,13,18,1,0,1,0.32,0.68,Non_Premium_Customer,Prospect_Potential_Customer
+758,759,412201,Female,45398,Master's Degree,36,Blockchain_Developer,0,0,1,0,24,27,0,0,1,0.32,0.69,Non_Premium_Customer,Prospect_Potential_Customer
+759,760,412201,Female,40115,Bachelor's Degree,37,Blockchain_Developer,1,0,0,0,23,14,0,1,0,0.57,0.36,Non_Potential_Customer,Prospect_Non_Potential_Customer
+760,761,412207,Male,82487,Post Doctoral Degree,38,Corporate_Lawyer,1,1,0,1,15,15,1,0,1,0.36,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+761,762,412207,Female,96015,Bachelor's Degree,29,Corporate_Lawyer,1,1,0,1,12,20,0,0,1,0.56,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+762,763,412207,Male,181338,Post Doctoral Degree,52,Data_Scientist,1,0,1,1,4,8,1,0,1,0.3,0.64,Non_Premium_Customer,Prospect_Potential_Customer
+763,764,412207,Male,136292,Master's Degree,41,Full_Stack_Software_Developer,0,0,1,0,14,28,0,0,1,0.47,0.56,Non_Premium_Customer,Prospect_Potential_Customer
+764,765,412207,Male,59302,Bachelor's Degree,55,Management_Consultant,0,1,1,1,26,9,0,0,1,0.62,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+765,766,412207,Female,159349,Master's Degree,30,Full_Stack_Software_Developer,0,1,1,1,13,10,0,0,1,0.47,0.39,Non_Potential_Customer,Prospect_Non_Potential_Customer
+766,767,412207,Male,195222,Master's Degree,46,Corporate_Lawyer,0,0,1,1,3,4,1,0,1,0.59,0.47,Non_Potential_Customer,Prospect_Non_Potential_Customer
+767,768,412207,Male,187407,Bachelor's Degree,46,Product_Manager,0,1,0,0,26,27,1,0,1,0.41,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+768,769,412207,Female,159525,Post Doctoral Degree,26,Corporate_Lawyer,1,0,0,0,23,1,0,0,1,0.44,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+769,770,412207,Male,84235,Bachelor's Degree,52,Machine_Learning_Expert,1,0,0,0,23,9,1,1,0,0.75,0.44,Premium_Customer,Prospect_Potential_Customer
+770,771,411014,Female,191965,Post Doctoral Degree,32,Data_Scientist,1,0,0,1,29,5,0,0,1,0.71,0.51,Potential_Customer,Prospect_Potential_Customer
+771,772,411014,Male,142336,Post Doctoral Degree,55,Investment Banker,1,0,0,0,2,16,1,0,1,0.58,0.35,Non_Potential_Customer,Prospect_Non_Potential_Customer
+772,773,411014,Female,71757,Bachelor's Degree,35,Blockchain_Developer,0,1,1,1,4,20,0,0,1,0.41,0.41,Non_Potential_Customer,Prospect_Non_Potential_Customer
+773,774,411014,Male,103596,Master's Degree,28,Blockchain_Developer,0,0,0,1,7,10,0,1,0,0.68,0.45,Premium_Customer,Prospect_Potential_Customer
+774,775,411014,Male,108923,Master's Degree,26,Investment Banker,1,1,0,1,2,7,1,0,1,0.51,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+775,776,411014,Female,48212,Post Doctoral Degree,39,Data_Scientist,0,0,1,0,13,16,1,0,1,0.43,0.37,Non_Potential_Customer,Prospect_Non_Potential_Customer
+776,777,411014,Female,50805,Post Doctoral Degree,34,Investment Banker,0,0,0,0,1,18,1,0,1,0.55,0.44,Non_Potential_Customer,Prospect_Non_Potential_Customer
+777,778,411014,Male,66527,Post Doctoral Degree,36,Corporate_Lawyer,0,1,0,0,29,11,0,0,1,0.45,0.45,Non_Potential_Customer,Prospect_Non_Potential_Customer
+778,779,411014,Female,93437,Master's Degree,46,Corporate_Lawyer,1,1,1,1,27,27,1,0,1,0.3,0.77,Non_Premium_Customer,Prospect_Potential_Customer
+779,780,411014,Male,191683,Post Doctoral Degree,57,Machine_Learning_Expert,0,1,0,1,20,2,0,0,1,0.24,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+780,781,411017,Male,131355,Bachelor's Degree,24,Data_Scientist,0,1,0,0,24,12,0,0,1,0.73,0.49,Potential_Customer,Prospect_Potential_Customer
+781,782,411017,Male,71894,Master's Degree,54,Management_Consultant,1,1,0,0,26,9,0,0,1,0.61,0.49,Non_Premium_Customer,Prospect_Potential_Customer
+782,783,411017,Male,70092,Post Doctoral Degree,38,Blockchain_Developer,1,1,0,0,16,27,1,0,1,0.45,0.58,Non_Premium_Customer,Prospect_Potential_Customer
+783,784,411017,Male,35570,Master's Degree,26,Corporate_Lawyer,0,0,0,1,24,14,1,1,0,0.33,0.61,Non_Premium_Customer,Prospect_Potential_Customer
+784,785,411017,Male,64762,Master's Degree,44,Blockchain_Developer,0,1,1,1,25,5,0,0,1,0.35,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+785,786,411017,Male,51138,Post Doctoral Degree,59,Data_Scientist,1,0,1,1,16,10,0,1,0,0.19,0.71,Non_Premium_Customer,Prospect_Potential_Customer
+786,787,411017,Male,53275,Post Doctoral Degree,57,Machine_Learning_Expert,1,1,1,0,20,22,0,0,1,0.37,0.73,Non_Premium_Customer,Prospect_Potential_Customer
+787,788,411017,Male,123952,Post Doctoral Degree,59,Blockchain_Developer,1,1,1,1,2,6,1,0,1,0.35,0.59,Non_Premium_Customer,Prospect_Potential_Customer
+788,789,411017,Male,119810,Master's Degree,35,Blockchain_Developer,1,0,0,0,14,25,0,0,1,0.52,0.52,Non_Premium_Customer,Prospect_Potential_Customer
+789,790,411017,Female,172067,Bachelor's Degree,40,Machine_Learning_Expert,1,0,0,1,29,23,1,0,1,0.34,0.55,Non_Premium_Customer,Prospect_Potential_Customer
+790,791,411057,Female,139683,Master's Degree,47,Corporate_Lawyer,1,0,0,0,9,15,0,0,1,0.57,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+791,792,411057,Female,30311,Bachelor's Degree,36,Machine_Learning_Expert,1,1,1,0,3,25,0,0,1,0.42,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+792,793,411057,Female,110650,Post Doctoral Degree,57,Investment Banker,1,1,1,1,24,7,1,0,1,0.18,0.65,Non_Premium_Customer,Prospect_Potential_Customer
+793,794,411057,Male,181621,Post Doctoral Degree,56,Product_Manager,0,1,0,1,17,24,0,0,1,0.4,0.57,Non_Premium_Customer,Prospect_Potential_Customer
+794,795,411057,Female,133610,Master's Degree,27,Machine_Learning_Expert,0,0,0,0,10,23,1,0,1,0.75,0.19,Premium_Customer,Prospect_Potential_Customer
+795,796,411057,Male,106719,Post Doctoral Degree,51,Corporate_Lawyer,1,0,0,0,20,23,1,0,1,0.28,0.53,Non_Premium_Customer,Prospect_Potential_Customer
+796,797,411057,Male,61658,Post Doctoral Degree,37,Full_Stack_Software_Developer,1,1,1,0,25,25,1,1,0,0.34,0.82,Non_Premium_Customer,Prospect_Potential_Customer
+797,798,411057,Male,68381,Bachelor's Degree,39,Corporate_Lawyer,0,0,0,1,28,7,0,0,1,0.39,0.63,Non_Premium_Customer,Prospect_Potential_Customer
+798,799,411057,Female,185089,Post Doctoral Degree,26,Full_Stack_Software_Developer,1,1,0,1,27,22,1,1,0,0.54,0.6,Non_Premium_Customer,Prospect_Potential_Customer
+799,800,411057,Female,176788,Post Doctoral Degree,53,Investment Banker,0,1,1,1,4,29,1,0,1,0.5,0.6,Non_Premium_Customer,Prospect_Potential_Customer
